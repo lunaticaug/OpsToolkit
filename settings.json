@@ -1,0 +1,92 @@
+{
+
+    "comment":{
+        "name":"아래 내용을 추가하면 됨!"},
+    
+  "editor.semanticHighlighting.enabled": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "Markdown Heading 1",
+        "scope": [
+          "heading.1.markdown",
+          "entity.name.section.markdown.heading.1.markdown"
+        ],
+        "settings": { "foreground": "#AA88CC" }
+      },
+      {
+        "name": "Markdown Heading 2",
+        "scope": [
+          "heading.2.markdown",
+          "entity.name.section.markdown.heading.2.markdown"
+        ],
+        "settings": { "foreground": "#79A7FF" }
+      },
+      {
+        "name": "Markdown Heading 3",
+        "scope": [
+          "heading.3.markdown",
+          "entity.name.section.markdown.heading.3.markdown"
+        ],
+        "settings": { "foreground": "#55CCCC" }
+      },
+      {
+        "name": "Markdown Heading 4",
+        "scope": [
+          "heading.4.markdown",
+          "entity.name.section.markdown.heading.4.markdown"
+        ],
+        "settings": { "foreground": "#99FF99" }
+      },
+      {
+        "name": "Markdown Heading 5 & 6",
+        "scope": [
+          "heading.5.markdown",
+          "heading.6.markdown"
+        ],
+        "settings": { "foreground": "#33AA33" }
+      },
+      {
+        "name": "Markdown Heading Punctuation",
+        "scope": "punctuation.definition.heading.markdown",
+        "settings": { "foreground": "#666666" }
+      },
+      {
+        "name": "Markdown Bold Text",
+        "scope": "markup.bold.markdown",
+        "settings": {
+          "foreground": "#FFE600",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "name": "Markdown Italic Text",
+        "scope": "markup.italic.markdown",
+        "settings": { "fontStyle": "italic" }
+      },
+      {
+        "name": "Markdown Underline Text",
+        "scope": "markup.underline.markdown",
+        "settings": { "fontStyle": "underline" }
+      },
+      {
+        "name": "Markdown List Markers",
+        "scope": "markup.list.markdown punctuation.definition.list.begin.markdown",
+        "settings": { "foreground": "#33AA33" }
+      },
+      {
+        "name": "Markdown Other Text",
+        "scope": "markup.other.markdown",
+        "settings": { "foreground": "#DDDDDD" }
+      },
+      {
+        "name": "Markdown Bracket Text (e.g., [Step1])",
+        "scope": "punctuation.definition.link.begin.markdown, punctuation.definition.link.end.markdown",
+        "settings": {
+          "foreground": "#FFFFFF",
+          "fontStyle": "bold"
+        }
+      }
+    ]
+  }
+}
