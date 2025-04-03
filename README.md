@@ -1,2 +1,2 @@
-# GPTs
+# GPTs and etcs
 CustomGPTs
