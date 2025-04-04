@@ -1,2 +1,7 @@
 2018-10-exam-fm-sample-questions.pdf
 2018-10-exam-fm-sample-solutions.pdf
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
