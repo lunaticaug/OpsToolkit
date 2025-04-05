@@ -13,23 +13,13 @@ def extract_text_from_pdf(pdf_path):
     return full_text
 
 def extract_questions_by_number(text):
-    pattern = r"\b(\d{1,3})\."
+    # 줄의 시작에서 공백 후 1~3자리 숫자와 점, 그 뒤에 한 개 이상의 공백이 오고, 바로 A~E가 나오지 않는 경우만 매칭
+    pattern = r"(?m)^\s*(\d{1,3})\.\s+(?![A-E]\b)"
     matches = list(re.finditer(pattern, text))
     items = {}
     for i, match in enumerate(matches):
         number = match.group(1)
         start = match.end()
-        end = matches[i + 1].start() if i + 1 < len(matches) else len(text)
-        items[number] = text[start:end].strip()
-    return items
-
-def extract_possible_questions(text):
-    pattern = r"(?m)(\d{1,3})\s*\.\s*Solution:"
-    matches = list(re.finditer(pattern, text))
-    items = {}
-    for i, match in enumerate(matches):
-        number = match.group(1)
-        start = match.start()
         end = matches[i + 1].start() if i + 1 < len(matches) else len(text)
         items[number] = text[start:end].strip()
     return items
