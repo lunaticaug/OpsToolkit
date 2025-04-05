@@ -20,35 +20,21 @@ def extract_questions_new(text):
     새 기준에 따라 문제 블록을 추출합니다.
     
     - 문제 블록은 한 줄의 시작에서 (선택적) 페이지번호와 1~3자리 문제번호(뒤에 점이 붙음)로 시작합니다.
-    - 문제 내용은 그 후부터 종결코돈인 "(E)" 뒤에 숫자가 나오고 줄바꿈이 있는 패턴이 나타나기 전까지입니다.
-    - 종결코돈은 블록의 경계를 나타내므로 문제 내용에서는 제외합니다.
+    - 문제 내용은 그 후부터 종결코돈이 나타나기 전까지입니다.
+    - 종결코돈은 "(E)"로 시작하여, 그 뒤에 어떤 문자가 있더라도 (비탐욕적으로) 줄바꿈 전까지의 부분을 포함합니다.
     
-    반환 형식 (예시):
-      {
-         "2": {
-             "content": "Kathryn deposits 100 ... (A) 4695\n(B) 5070 ... (D) 5820",
-             "page_number": null   # 또는 "3" (문제 도입부에 페이지번호가 있는 경우)
-         },
-         "3": {
-             "content": "Eric deposits 100 ...",
-             "page_number": "3"
-         },
-         ...
-      }
+    각 문제 블록은 딕셔너리의 key(문제번호)와
+    {"content": 문제내용, "page_number": 페이지번호(있을 경우)} 형태로 저장됩니다.
     """
-    # 정규표현식 설명:
-    # - ^(?P<page>\d+)?\s* : 선택적으로 페이지번호(숫자)와 그 후 공백.
-    # - (?P<problem>\d{1,3})\.\s+ : 1~3자리 숫자 뒤에 점과 공백(문제번호).
-    # - (?P<content>.*?)(?P<term>\(E\)\s*\d+\s*(?:\n|$)) :
-    #     내용은 종결코돈이 나타나기 전까지(비탐욕적으로) 캡처하며, 종결코돈은 (E) 다음에 숫자와 줄바꿈.
-    pattern = r"(?ms)^(?P<page>\d+)?\s*(?P<problem>\d{1,3})\.\s+(?P<content>.*?)(?P<term>\(E\)\s*\d+\s*(?:\n|$))"
+    # 종결코돈 부분: "(E)"로 시작해서 줄바꿈 또는 문자열 끝까지 캡처 (숫자뿐 아니라 LaTeX 등 다양한 형식 대응)
+    pattern = r"(?ms)^(?P<page>\d+)?\s*(?P<problem>\d{1,3})\.\s+(?P<content>.*?)(?P<term>\(E\).*?(?:\n|$))"
     matches = list(re.finditer(pattern, text))
     questions = {}
     for match in matches:
         prob_num = match.group("problem")
+        # 문제 내용에서는 종결코돈 부분은 제외하도록 함.
         content = match.group("content").strip()
         page_num = match.group("page")
-        # 저장할 때, 문제번호는 key, 그리고 내용과 페이지번호를 별도 필드로 저장
         questions[prob_num] = {"content": content, "page_number": page_num}
     return questions
 
@@ -90,16 +76,19 @@ def verify_sequential_page_numbers(questions):
 if __name__ == "__main__":
     base = Path(__file__).parent
     pdf_file = base / "2018-10-exam-fm-sample-questions.pdf"
+    
+    # 1. PDF에서 텍스트 추출
     text = extract_text_from_pdf(pdf_file)
     
-    # 새 기준에 따라 문제 블록 추출
+    # 2. 새 기준에 따라 문제 블록 추출
     questions = extract_questions_new(text)
     print(f"새 기준으로 추출된 문제 블록 개수: {len(questions)}개")
     
+    # 3. 문제번호와 페이지번호의 순차성 검증
     verify_sequential_numbers(questions)
     verify_sequential_page_numbers(questions)
     
-    # 결과를 JSON 파일로 저장
+    # 4. 결과를 JSON 파일로 저장
     output_file = base / "questions_filtered_new.json"
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(questions, f, indent=2, ensure_ascii=False)
