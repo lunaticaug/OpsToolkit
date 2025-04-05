@@ -22,6 +22,7 @@ def extract_questions_new(text):
     - 문제 블록은 한 줄의 시작에서 (선택적) 페이지번호와 1~3자리 문제번호(뒤에 점이 붙음)로 시작합니다.
     - 문제 내용은 그 후부터 종결코돈이 나타나기 전까지입니다.
     - 종결코돈은 "(E)"로 시작하여, 그 뒤에 어떤 문자가 있더라도 (비탐욕적으로) 줄바꿈 전까지의 부분을 포함합니다.
+    - **중요:** 분할 구분자로 사용된 종결코돈은 삭제하지 않고 최종 콘텐츠에 포함됩니다.
     
     각 문제 블록은 딕셔너리의 key(문제번호)와
     {"content": 문제내용, "page_number": 페이지번호(있을 경우)} 형태로 저장됩니다.
@@ -32,8 +33,8 @@ def extract_questions_new(text):
     questions = {}
     for match in matches:
         prob_num = match.group("problem")
-        # 문제 내용에서는 종결코돈 부분은 제외하도록 함.
-        content = match.group("content").strip()
+        # 수정: 종결코돈도 포함하여 최종 콘텐츠에 보존
+        content = (match.group("content") + match.group("term")).strip()
         page_num = match.group("page")
         questions[prob_num] = {"content": content, "page_number": page_num}
     return questions
