@@ -13,6 +13,7 @@ def extract_text_from_pdf(pdf_path):
     return full_text
 
 def extract_possible_questions(text):
+    # 문제 번호가 1~3자리 숫자 다음에 ". Solution:"이 등장하는 패턴
     pattern = r"(?m)(\d{1,3})\s*\.\s*Solution:"
     matches = list(re.finditer(pattern, text))
     items = {}
@@ -29,5 +30,19 @@ if __name__ == "__main__":
     solutions = extract_possible_questions(text)
 
     print(f"📗 추출된 해설 수: {len(solutions)}개")
+    
+    # 누락된 해설 번호 확인 (예: 1부터 최대 번호까지의 범위에서 누락된 번호)
+    try:
+        sol_numbers = sorted(int(k) for k in solutions.keys())
+        if sol_numbers:
+            expected = list(range(sol_numbers[0], sol_numbers[-1] + 1))
+            missing = sorted(set(expected) - set(sol_numbers))
+            if missing:
+                print(f"❗ 누락된 해설 번호: {missing}")
+            else:
+                print("✅ 모든 해설 번호가 추출되었습니다.")
+    except Exception as e:
+        print("해설 번호를 정수로 변환하는 도중 오류 발생:", e)
+    
     with open(base / "solutions_loose.json", "w", encoding="utf-8") as f:
         json.dump(solutions, f, indent=2, ensure_ascii=False)
