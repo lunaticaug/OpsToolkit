@@ -5,7 +5,7 @@ from PyPDF2 import PdfReader
 
 def extract_text_from_pdf(pdf_path):
     """
-    Extract all text from the given PDF file.
+    주어진 PDF 파일에서 전체 텍스트를 추출합니다.
     """
     reader = PdfReader(pdf_path)
     full_text = ""
@@ -17,62 +17,56 @@ def extract_text_from_pdf(pdf_path):
 
 def preprocess_text(text):
     """
-    Preprocess text by splitting it into lines and removing any lines that consist solely of numbers 
-    (which are likely page numbers or footer numbers).
+    텍스트를 줄 단위로 분리한 후, 페이지번호처럼 
+    공백을 제외하고 숫자만 있는 줄을 제거합니다.
     """
     lines = text.splitlines()
-    # Remove lines that are only whitespace and digits
-    filtered_lines = [line for line in lines if not re.match(r"^\s*\d+\s*$", line)]
+    filtered_lines = []
+    # 만약 줄 전체가 공백과 숫자로만 구성되어 있다면 (예: 페이지 번호) 제거
+    for line in lines:
+        if re.match(r"^\s*\d+\s*$", line):
+            continue
+        filtered_lines.append(line)
     return "\n".join(filtered_lines)
 
 def extract_questions_by_number(text):
     """
-    Extract problem blocks from preprocessed text.
-    
-    The regex pattern explained:
-      - (?m): Enable multiline mode.
-      - ^\s*(\d{1,3})\. : At the start of a line, match 1-3 digit number followed by a dot.
-      - \s+ : At least one space after the dot.
-      - (?![A-E]\b) : Negative lookahead to ensure that the following text is NOT a standalone letter A–E 
-                      (which would likely be an answer choice rather than problem text).
-      - (.*?) : Non-greedy capture of the problem block.
-      - (?=^\s*\d{1,3}\.\s+|$) : Stop at the next occurrence of a similar problem header or at the end of text.
+    전처리된 텍스트에서 문제 번호(1~3자리 숫자 뒤에 점)로 시작하는 문제 블록을 추출합니다.
+    각 문제 블록은 다음 문제 번호가 나타나기 전까지의 텍스트를 포함합니다.
     """
-    pattern = r"(?m)^\s*(\d{1,3})\.\s+(?![A-E]\b)(.*?)(?=^\s*\d{1,3}\.\s+|$)"
+    pattern = r"(?m)^\s*(\d{1,3})\.\s+(.*?)(?=^\s*\d{1,3}\.\s+|$)"
     matches = list(re.finditer(pattern, text, re.DOTALL))
     items = {}
     for match in matches:
         number = match.group(1)
         content = match.group(2).strip()
-        # 정상 문제라면 보통 "(A)" 등의 선택지가 포함됨
-        if re.search(r"\([A-E]\)", content):
-            items[number] = content
+        items[number] = content
     return items
 
 def verify_sequential_numbers(questions):
     """
-    Verify if the extracted problem numbers are sequential.
+    추출된 문제 번호들이 순차적인지 확인합니다.
     """
     q_nums = sorted(map(int, questions.keys()))
     if not q_nums:
-        print("No question numbers found.")
+        print("문제 번호를 찾을 수 없습니다.")
         return
     expected = list(range(q_nums[0], q_nums[-1] + 1))
     missing = sorted(set(expected) - set(q_nums))
-    print("Extracted question numbers:", q_nums)
-    print("Expected sequence:", expected)
-    print("Missing numbers:", missing)
+    print("추출된 문제 번호:", q_nums)
+    print("기대하는 순서:", expected)
+    print("누락된 번호:", missing)
 
 if __name__ == "__main__":
     base = Path(__file__).parent
     # 1. PDF에서 텍스트 추출
     raw_text = extract_text_from_pdf(base / "2018-10-exam-fm-sample-questions.pdf")
-    # 2. 전처리: 페이지 번호와 같이 숫자만 있는 줄을 제거
+    # 2. 전처리: 페이지번호(숫자만 있는 줄) 제거
     processed_text = preprocess_text(raw_text)
-    # 3. 문제 번호 기반으로 문제 블록 추출
+    # 3. 문제 번호를 기준으로 문제 블록 추출
     questions = extract_questions_by_number(processed_text)
     
-    print(f"📘 개선된 추출 방식으로 문제 수: {len(questions)}개")
+    print(f"📘 개선된 추출 방식으로 추출된 문제 개수: {len(questions)}개")
     verify_sequential_numbers(questions)
     
     # 4. 결과를 JSON 파일로 저장
