@@ -49,9 +49,9 @@ def verify_sequential_numbers(questions):
         return
     expected = list(range(q_nums[0], q_nums[-1] + 1))
     missing = sorted(set(expected) - set(q_nums))
-    print("추출된 문제 번호:", q_nums)
-    print("기대 번호 순서:", expected)
-    print("누락된 번호:", missing)
+    print(f"[1] 추출된 문제 번호 개수: {len(q_nums)}개")
+    print(f"[2] 기대 번호 수: {len(expected)}개")
+    print(f"[3] 누락된 번호 ({len(missing)}개): {missing}")
 
 def verify_sequential_page_numbers(questions):
     """
@@ -70,9 +70,9 @@ def verify_sequential_page_numbers(questions):
     page_nums_sorted = sorted(page_nums)
     expected = list(range(page_nums_sorted[0], page_nums_sorted[-1] + 1))
     missing = sorted(set(expected) - set(page_nums_sorted))
-    print("추출된 페이지번호:", page_nums_sorted)
-    print("기대 페이지번호 순서:", expected)
-    print("누락된 페이지번호:", missing)
+    print(f"[1] 추출된 페이지번호 수: {len(page_nums_sorted)}개")
+    print(f"[2] 기대 페이지 수: {len(expected)}개")
+    print(f"[3] 누락된 페이지번호 ({len(missing)}개): {missing}")
 
 if __name__ == "__main__":
     base = Path(__file__).parent
