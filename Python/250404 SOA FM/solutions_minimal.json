@@ -1,0 +1,3257 @@
+[
+  {
+    "question_num": "1",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "1. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "2",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "2. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "3",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "3. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "4",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "4. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "5",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "5. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "6",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "6. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "7",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "7. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "8",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "8. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "9",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "9. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "10",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "10. \nSolution: E",
+    "equations": true
+  },
+  {
+    "question_num": "11",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "11. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "12",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "12. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "13",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "13. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "14",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "14. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "15",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "15. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "16",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "16. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "17",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "17. \nSolution: A",
+    "equations": true
+  },
+  {
+    "question_num": "18",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "18. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "19",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "19. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "20",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "20. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "21",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "21. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "22",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "22. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "23",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "23. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "24",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "24. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "26",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "26.  \nSolution: D.",
+    "equations": false
+  },
+  {
+    "question_num": "27",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "27. Solution: C.  \nThe first cash flow of 60,000 at time 3 earns 2400 in interest for a time 4 receipt of 62,400.",
+    "equations": false
+  },
+  {
+    "question_num": "28",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "28.  \nSolution: B.",
+    "equations": false
+  },
+  {
+    "question_num": "29",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "29.  \nSolution: E.",
+    "equations": false
+  },
+  {
+    "question_num": "30",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "30.  \nSolution: C.",
+    "equations": false
+  },
+  {
+    "question_num": "31",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "31.  \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "32",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "32.  \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "33",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "33. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "34",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "34.  \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "35",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "35.  \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "36",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "36.  \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "37",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "37. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "38",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "38.  \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "39",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "39. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "40",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "40.  \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "41",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "41.  \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "42",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "42.  \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "43",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "43.  \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "44",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "44.  \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "46",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "46. \nSolution: E",
+    "equations": true
+  },
+  {
+    "question_num": "47",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "47. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "48",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "48. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "49",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "49. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "50",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "50. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "51",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "51. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "52",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "52. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "53",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "53. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "5250",
+    "page_number": null,
+    "answer": null,
+    "intro_text": "5250. The desired ratio is then 5000/5250 = 0.9524.",
+    "equations": false
+  },
+  {
+    "question_num": "54",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "54. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "55",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "55. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "56",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "56. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "57",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "57. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "58",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "58. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "59",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "59. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "60",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "60. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "61",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "61. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "62",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "62. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "63",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "63. \nSolution: A",
+    "equations": true
+  },
+  {
+    "question_num": "64",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "64. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "65",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "65. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "66",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "66. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "67",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "67. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "68",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "68. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "69",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "69. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "70",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "70. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "71",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "71. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "72",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "72. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "73",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "73. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "74",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "74. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "75",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "75. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "76",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "76. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "77",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "77. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "78",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "78. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "79",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "79. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "80",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "80. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "81",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "81. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "82",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "82. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "83",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "83. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "84",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "84. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "85",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "85. Solution: A \nPresent value for the ﬁrst 10 years is",
+    "equations": true
+  },
+  {
+    "question_num": "86",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "86. \nSolution: C",
+    "equations": true
+  },
+  {
+    "question_num": "87",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "87. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "88",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "88. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "89",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "89. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "90",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "90. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "91",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "91. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "92",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "92. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "93",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "93. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "94",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "94. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "95",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "95. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "96",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "96. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "97",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "97. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "98",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "98. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "99",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "99. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "100",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "100. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "101",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "101. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "102",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "102. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "103",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "103. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "104",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "104. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "105",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "105. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "106",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "106. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "107",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "107. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "108",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "108. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "109",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "109. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "110",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "110. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "111",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "111. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "112",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "112. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "113",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "113. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "114",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "114. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "115",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "115. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "116",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "116. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "117",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "117. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "118",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "118. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "119",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "119. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "120",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "120. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "121",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "121. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "122",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "122. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "123",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "123. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "124",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "124. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "125",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "125. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "126",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "126. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "127",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "127. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "128",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "128. \nSolution: A",
+    "equations": true
+  },
+  {
+    "question_num": "129",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "129. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "130",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "130. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "131",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "131. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "132",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "132. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "133",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "133. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "134",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "134. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "135",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "135. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "136",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "136. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "137",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "137. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "138",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "138. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "139",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "139. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "140",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "140. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "141",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "141. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "142",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "142. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "143",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "143. \nSolution: B",
+    "equations": true
+  },
+  {
+    "question_num": "144",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "144. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "145",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "145. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "146",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "146. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "147",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "147. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "148",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "148. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "149",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "149. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "150",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "150. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "151",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "151. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "152",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "152. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "153",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "153. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "154",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "154. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "155",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "155. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "156",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "156. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "157",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "157. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "158",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "158. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "159",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "159. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "160",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "160. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "161",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "161. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "162",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "162. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "163",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "163. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "164",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "164. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "165",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "165. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "166",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "166. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "167",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "167. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "168",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "168. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "169",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "169. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "170",
+    "page_number": null,
+    "answer": null,
+    "intro_text": "170. \nSolution D",
+    "equations": false
+  },
+  {
+    "question_num": "171",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "171. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "172",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "172. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "173",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "173. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "174",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "174. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "175",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "175. \nSolution: B",
+    "equations": true
+  },
+  {
+    "question_num": "176",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "176. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "177",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "177. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "178",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "178. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "179",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "179. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "180",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "180. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "181",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "181. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "182",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "182. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "183",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "183. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "184",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "184. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "185",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "185. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "186",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "186. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "187",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "187. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "188",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "188. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "189",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "189. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "190",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "190. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "191",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "191. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "192",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "192. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "193",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "193. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "194",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "194. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "195",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "195. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "196",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "196. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "197",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "197. Solution: A \nLet h(i) be the present value of the cash flows. For Redington immunization, the value of the",
+    "equations": false
+  },
+  {
+    "question_num": "198",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "198. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "199",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "199. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "200",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "200. \nSolution: E",
+    "equations": true
+  },
+  {
+    "question_num": "201",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "201. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "202",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "202. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "203",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "203. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "204",
+    "page_number": null,
+    "answer": null,
+    "intro_text": "204. \nDELETED",
+    "equations": false
+  },
+  {
+    "question_num": "205",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "205. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "206",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "206. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "207",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "207. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "208",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "208. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "209",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "209. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "210",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "210. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "211",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "211. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "212",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "212. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "213",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "213. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "214",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "214. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "215",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "215. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "216",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "216. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "217",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "217. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "218",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "218. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "219",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "219. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "220",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "220. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "221",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "221. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "222",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "222. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "223",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "223. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "224",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "224. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "225",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "225. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "226",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "226. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "227",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "227. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "228",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "228. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "229",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "229. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "230",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "230. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "231",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "231. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "232",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "232. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "233",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "233. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "234",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "234. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "235",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "235. \nSolution:  E",
+    "equations": false
+  },
+  {
+    "question_num": "236",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "236. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "237",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "237. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "238",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "238. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "239",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "239. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "240",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "240. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "241",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "241. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "242",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "242. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "243",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "243. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "244",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "244. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "245",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "245. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "246",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "246. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "247",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "247. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "248",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "248. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "249",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "249. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "250",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "250. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "251",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "251. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "252",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "252. \nSolution: B",
+    "equations": true
+  },
+  {
+    "question_num": "253",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "253. \nSolution: B",
+    "equations": true
+  },
+  {
+    "question_num": "254",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "254. Solution: B \n2",
+    "equations": true
+  },
+  {
+    "question_num": "255",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "255. Solution: D \nIf paid in one lump sum, the total interest paid is",
+    "equations": false
+  },
+  {
+    "question_num": "256",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "256. Solution: B \n20",
+    "equations": false
+  },
+  {
+    "question_num": "257",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "257. Solution: B \n2",
+    "equations": true
+  },
+  {
+    "question_num": "258",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "258.  Solution: A \n30",
+    "equations": false
+  },
+  {
+    "question_num": "259",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "259. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "260",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "260. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "261",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "261. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "262",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "262. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "263",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "263. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "264",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "264. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "265",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "265. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "266",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "266. \nSolution: D.",
+    "equations": false
+  },
+  {
+    "question_num": "267",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "267. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "268",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "268. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "269",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "269. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "270",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "270. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "271",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "271. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "272",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "272. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "273",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "273. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "274",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "274. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "275",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "275. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "276",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "276. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "277",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "277. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "278",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "278. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "279",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "279. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "280",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "280. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "281",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "281. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "282",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "282. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "283",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "283. \nSolution: C",
+    "equations": true
+  },
+  {
+    "question_num": "284",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "284. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "285",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "285. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "286",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "286. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "287",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "287. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "288",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "288. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "289",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "289. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "290",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "290. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "291",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "291. \nSolution: B",
+    "equations": true
+  },
+  {
+    "question_num": "292",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "292. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "293",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "293. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "294",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "294. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "295",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "295. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "296",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "296. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "297",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "297. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "298",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "298. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "299",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "299. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "300",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "300. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "301",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "301. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "302",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "302. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "303",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "303. \nSolution: D",
+    "equations": true
+  },
+  {
+    "question_num": "304",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "304. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "305",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "305. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "306",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "306. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "307",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "307. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "308",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "308. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "309",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "309. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "310",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "310. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "311",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "311. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "312",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "312. \nSolution: A",
+    "equations": true
+  },
+  {
+    "question_num": "313",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "313. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "314",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "314. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "315",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "315. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "316",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "316. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "317",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "317. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "318",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "318. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "319",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "319. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "320",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "320. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "321",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "321. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "322",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "322. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "323",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "323. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "324",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "324. \nSolution: D",
+    "equations": true
+  },
+  {
+    "question_num": "325",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "325. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "326",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "326. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "327",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "327. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "328",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "328. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "329",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "329. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "330",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "330. \nSolution: E",
+    "equations": true
+  },
+  {
+    "question_num": "331",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "331. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "332",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "332. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "333",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "333. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "334",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "334. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "335",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "335. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "336",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "336. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "337",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "337. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "338",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "338. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "339",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "339. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "340",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "340. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "341",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "341. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "342",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "342. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "343",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "343. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "344",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "344. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "345",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "345. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "346",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "346. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "347",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "347. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "348",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "348. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "349",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "349. \nSolution: A",
+    "equations": true
+  },
+  {
+    "question_num": "350",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "350. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "351",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "351. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "352",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "352. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "353",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "353. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "354",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "354. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "355",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "355. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "356",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "356. \nSolution: C",
+    "equations": true
+  },
+  {
+    "question_num": "357",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "357. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "358",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "358. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "359",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "359. \nSolution:  C",
+    "equations": false
+  },
+  {
+    "question_num": "360",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "360. \nSolution:  D",
+    "equations": false
+  },
+  {
+    "question_num": "361",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "361. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "362",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "362. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "363",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "363. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "364",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "364. \nSolution:  A",
+    "equations": false
+  },
+  {
+    "question_num": "365",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "365. \nSolution: C",
+    "equations": true
+  },
+  {
+    "question_num": "366",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "366. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "367",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "367. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "368",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "368. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "369",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "369. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "370",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "370. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "371",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "371. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "372",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "372. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "373",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "373. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "374",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "374. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "375",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "375. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "376",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "376. \nSolution: D",
+    "equations": false
+  },
+  {
+    "question_num": "377",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "377. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "378",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "378. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "379",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "379. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "380",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "380. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "381",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "381. \nSolution: C",
+    "equations": false
+  },
+  {
+    "question_num": "382",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "382. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "1",
+    "page_number": null,
+    "answer": null,
+    "intro_text": "1. PV (Assets) = PV (Liability)",
+    "equations": false
+  },
+  {
+    "question_num": "2",
+    "page_number": null,
+    "answer": null,
+    "intro_text": "2. Duration (Assets) = Duration (Liability)",
+    "equations": false
+  },
+  {
+    "question_num": "3",
+    "page_number": null,
+    "answer": null,
+    "intro_text": "3. The asset cash flows occur before and after the liability cash flow.",
+    "equations": false
+  },
+  {
+    "question_num": "383",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "383. \nSolution: B",
+    "equations": false
+  },
+  {
+    "question_num": "384",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "384. \nSolution: A",
+    "equations": false
+  },
+  {
+    "question_num": "385",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "385. \nSolution: E",
+    "equations": false
+  },
+  {
+    "question_num": "386",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "386.  Solution:  C \nFirst, note that the monthly rate of interest is 0.072/12 = 0.006.",
+    "equations": false
+  },
+  {
+    "question_num": "387",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "387.  Solution:  C \nThe price of the geometric perpetuity-due, as a function of the annual effective interest rate i, is",
+    "equations": false
+  },
+  {
+    "question_num": "388",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "388.  Solution:  E \nSince the annual nominal interest rate is 6%, compounded monthly, the monthly effective",
+    "equations": false
+  },
+  {
+    "question_num": "389",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "389.  Solution:  C \nSince the Macaulay duration of a set of cash flows is a weighted sum of the payment times,",
+    "equations": false
+  },
+  {
+    "question_num": "390",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "390.  Solution:  B \nFor all 3 investments, convexity is",
+    "equations": false
+  },
+  {
+    "question_num": "391",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "391.  Solution:  E \n(",
+    "equations": true
+  },
+  {
+    "question_num": "392",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "392.  Solution:  A \n(",
+    "equations": false
+  },
+  {
+    "question_num": "393",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "393.  Solution:  C \n5",
+    "equations": false
+  },
+  {
+    "question_num": "394",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "394.  Solution:  D \n5",
+    "equations": true
+  },
+  {
+    "question_num": "395",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "395.  Solution:  D \n(",
+    "equations": false
+  },
+  {
+    "question_num": "396",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "396.  Solution:  E \nIf j is the semi-annual effective interest rate, then",
+    "equations": false
+  },
+  {
+    "question_num": "397",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "397.  Solution:  E \nFirst determine the present value of the four payments within a year.  Then determine the present",
+    "equations": false
+  },
+  {
+    "question_num": "398",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "398.  Solution:  D \n(",
+    "equations": false
+  },
+  {
+    "question_num": "399",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "399.  Solution:  A \nAccumulate values to time ten.",
+    "equations": false
+  },
+  {
+    "question_num": "400",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "400.  Solution:  D \nRepayment =",
+    "equations": false
+  },
+  {
+    "question_num": "401",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "401.  Solution:  A \n1",
+    "equations": false
+  },
+  {
+    "question_num": "402",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "402.  Solution:  B \n(",
+    "equations": false
+  },
+  {
+    "question_num": "403",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "403.  Solution:  B \n0.09 4",
+    "equations": true
+  },
+  {
+    "question_num": "404",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "404.  Solution:  D \n2",
+    "equations": false
+  },
+  {
+    "question_num": "405",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "405.  Solution:  A \nLet P be the initial payment. Then,",
+    "equations": false
+  },
+  {
+    "question_num": "406",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "406.  Solution:  B \n1.09",
+    "equations": false
+  },
+  {
+    "question_num": "407",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "407.  Solution:  E \nAt the end of 5 years and 60 payments, the borrower still owes 150,000.",
+    "equations": false
+  },
+  {
+    "question_num": "408",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "408.  Solution:  C \nSuppose level payment is 500.",
+    "equations": false
+  },
+  {
+    "question_num": "409",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "409.  Solution:  B \n(",
+    "equations": false
+  },
+  {
+    "question_num": "410",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "410.  Solution:  A \nThe percentage by which the balance accumulates each year is the effective interest rate.",
+    "equations": false
+  },
+  {
+    "question_num": "411",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "411.  Solution:  E \nWe have",
+    "equations": false
+  },
+  {
+    "question_num": "412",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "412.  Solution:  A \nThe Macaulay duration is",
+    "equations": false
+  },
+  {
+    "question_num": "413",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "413.  Solution:  E \nThe effective rate per month is",
+    "equations": false
+  },
+  {
+    "question_num": "414",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "414.  Solution:  C \nThe total interest payment of 400 in the 1-year period is 5% of the new balance of 8000, so by",
+    "equations": false
+  },
+  {
+    "question_num": "415",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "415.  Solution:  A \nThe effective monthly interest rate is",
+    "equations": false
+  },
+  {
+    "question_num": "416",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "416.  Solution:  C \nLet i = yield rate. Then, for bond A:",
+    "equations": false
+  },
+  {
+    "question_num": "417",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "417.  Solution:  D \nNo computations are needed.  Since the desired yield rate of 6% is higher than the coupon rate of",
+    "equations": false
+  },
+  {
+    "question_num": "418",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "418.  Solution:  A \nThe amount charged to the card was 1500 immediately.  The annual fees were 20 after 1 year",
+    "equations": false
+  },
+  {
+    "question_num": "419",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "419.  Solution:  D \nLet j be the quarterly interest rate. Then,",
+    "equations": false
+  },
+  {
+    "question_num": "420",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "420.  Solution:  D \n5",
+    "equations": false
+  },
+  {
+    "question_num": "421",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "421.  Solution:  E \nThe definition of “purchased at premium” is P > C; purchase price greater than redemption",
+    "equations": false
+  },
+  {
+    "question_num": "422",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "422.  Solution:  A \n180",
+    "equations": false
+  },
+  {
+    "question_num": "423",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "423.  Solution:  A \nThe Macaulay duration of bond B is",
+    "equations": false
+  },
+  {
+    "question_num": "424",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "424.  Solution:  D \n1",
+    "equations": false
+  },
+  {
+    "question_num": "425",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "425.  Solution:  C \n2",
+    "equations": false
+  },
+  {
+    "question_num": "426",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "426.  Solution:  B \nMatching the asset and liability present values and durations, we have the system of equations",
+    "equations": false
+  },
+  {
+    "question_num": "427",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "427.  Solution:  D \nEach coupon payment is 7000(0.06)",
+    "equations": false
+  },
+  {
+    "question_num": "428",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "428.  Solution:  A \nThe PV of perpetuity X is",
+    "equations": false
+  },
+  {
+    "question_num": "429",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "429.  Solution:  A \n10",
+    "equations": false
+  },
+  {
+    "question_num": "430",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "430.  Solution:  B \nLet i = yield rate.",
+    "equations": false
+  },
+  {
+    "question_num": "431",
+    "page_number": null,
+    "answer": null,
+    "intro_text": "431.  Solution.  E \n1000(0.03)",
+    "equations": false
+  },
+  {
+    "question_num": "432",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "432.  Solution:  E \n(A) It does need to be satisfied",
+    "equations": false
+  },
+  {
+    "question_num": "433",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "433.  Solution:  A \nOB, after year",
+    "equations": false
+  },
+  {
+    "question_num": "434",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "434.  Solution:  E \nFirst, use bond A to determine the interest rate.  Because the equation for the interest rate cannot",
+    "equations": false
+  },
+  {
+    "question_num": "435",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "435.  Solution:  A \n40",
+    "equations": false
+  },
+  {
+    "question_num": "436",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "436.  Solution: B \nFirst, calculate the initial payment P as follows:",
+    "equations": false
+  },
+  {
+    "question_num": "437",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "437. \nSolution:  D",
+    "equations": false
+  },
+  {
+    "question_num": "438",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "438.  Solution:  E \n(60 15)/365",
+    "equations": false
+  },
+  {
+    "question_num": "439",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "439.  Solution:  D \n(",
+    "equations": false
+  },
+  {
+    "question_num": "440",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "440.  Solution:  C \nThe present value of the perpetuity-due, at annual effective interest rate i, is given by",
+    "equations": false
+  },
+  {
+    "question_num": "441",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "441.  Solution:  E \nLet  denote the discount factor applicable to a period of one month and let X be the constant",
+    "equations": false
+  },
+  {
+    "question_num": "442",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "442.  Solution:  C \n5",
+    "equations": true
+  },
+  {
+    "question_num": "443",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "443.  Solution:  C \nLet X be the monthly deposit of year 1.  Then determine the present value of the first year’s",
+    "equations": false
+  },
+  {
+    "question_num": "444",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "444.  Solution:  D \nThe yield rate is equal to the coupon rate for Bond Z, so the price of Bond Z is  1000.  This",
+    "equations": false
+  },
+  {
+    "question_num": "445",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "445.  Solution:  E \nUse Bond 1 to find information about",
+    "equations": false
+  },
+  {
+    "question_num": "446",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "446.  Solution:  D \nThere are two blocks of 42 payments (paid every two months) increasing in an arithmetic",
+    "equations": false
+  },
+  {
+    "question_num": "447",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "447.  Solution:  A \nFirst, the size of the level payment does not have an impact on the duration. So, for the",
+    "equations": false
+  },
+  {
+    "question_num": "448",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "448.  Solution:  D \nUsing the financial calculator to solve for the yield rate with",
+    "equations": false
+  },
+  {
+    "question_num": "449",
+    "page_number": null,
+    "answer": "C",
+    "intro_text": "449.  Solution:  C \nJust after the 20th coupon is paid, there are still 40 coupon periods left, and the book value of the",
+    "equations": false
+  },
+  {
+    "question_num": "450",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "450.  Solution:  B \nThe PV and duration of the assets must match the liabilities, 24,000 + 1,000 = 25,000 and",
+    "equations": false
+  },
+  {
+    "question_num": "451",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "451.  Solution:  E \nThe quarterly rate of interest is 0.05/4 = 0.0125.",
+    "equations": false
+  },
+  {
+    "question_num": "452",
+    "page_number": null,
+    "answer": null,
+    "intro_text": "452.  Solution B \nBecause the outlays all occur before the inflows, there is a unique yield rate. At a 50% interest",
+    "equations": false
+  },
+  {
+    "question_num": "453",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "453.  Solution:  D \nThe accumulation of discount of at time 8 is 491.51, which is equal to",
+    "equations": false
+  },
+  {
+    "question_num": "454",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "454.  Solution:  E \nThe amounts for accumulation of the discount in the annual coupon payments (amounts of",
+    "equations": false
+  },
+  {
+    "question_num": "455",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "455.  Solution:  E \nFirst note that the yield rate is equal to the coupon rate for Bond Z, so the price of Bond Z is",
+    "equations": false
+  },
+  {
+    "question_num": "1000",
+    "page_number": null,
+    "answer": null,
+    "intro_text": "1000.  This implies the price of Bond Y is 1,073.78. The semiannual yield rate is \n2",
+    "equations": false
+  },
+  {
+    "question_num": "456",
+    "page_number": null,
+    "answer": "E",
+    "intro_text": "456.  Solution:  E \nAssume the face amount is 1.  The price of the bond is",
+    "equations": false
+  },
+  {
+    "question_num": "457",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "457.  Solution:  B \nLet x be the amount of a coupon payment. The book value right after the nth coupon is",
+    "equations": false
+  },
+  {
+    "question_num": "458",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "458.  Solution:  B \n2",
+    "equations": false
+  },
+  {
+    "question_num": "459",
+    "page_number": null,
+    "answer": "A",
+    "intro_text": "459.  Solution:  A \n10,000 (1.07)",
+    "equations": false
+  },
+  {
+    "question_num": "460",
+    "page_number": null,
+    "answer": "B",
+    "intro_text": "460.  Solution:  B \nThe present value of the geometric payment perpetuity-immediate, at annual effective interest",
+    "equations": false
+  },
+  {
+    "question_num": "461",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "461.  Solution:  D \nThe present value of the geometric payment perpetuity-due, at annual effective interest rate i and",
+    "equations": false
+  },
+  {
+    "question_num": "462",
+    "page_number": null,
+    "answer": "D",
+    "intro_text": "462.  Solution:  D \nThe outstanding loan balance here can be calculated using either the prospective approach or the",
+    "equations": false
+  }
+]
