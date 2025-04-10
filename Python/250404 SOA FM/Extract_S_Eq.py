@@ -2,36 +2,34 @@ import fitz
 import re
 import json
 
-pdf_path = "2018-10-exam-fm-sample-solutions.pdf"  # PDF 경로
-output_json = "solutions_minimal.json"            # 결과 JSON
+# ========= 파일 / 설정 =========
+pdf_path = "2018-10-exam-fm-sample-solutions.pdf"  # 실제 PDF 파일명
+solution_pg_map_file = "solution_page_map.json"    # 문제번호->페이지번호 매핑
+output_json = "solutions_minimal.json"             # 최종 JSON 결과
 
-END_MARKER = "(E)"
-
-# 문제번호 정규식: "12. "
-question_num_pattern = re.compile(r"^\s*(\d+)\.\s")
-
-# 정답(A~E) 패턴: "Solution: A" ~ "Solution: E"
-answer_pattern = re.compile(r"Solution\s*:\s*([A-E])")
-
-# 조금 더 좁은 범위의 수식 키워드 예시
-equation_keywords = [r"\^", r"_", r"±", r"Σ", r"∫"]
-equation_pattern = re.compile("|".join(equation_keywords))
-
-# 도입부 줄(해설) 최대 2줄
-MAX_INTRO_LINES = 2
+END_MARKER = "(E)"  # 페이지 끝마다 추가해 블록 분할
+question_num_pattern = re.compile(r"^\s*(\d+)\.\s")     # 문제번호 "12. " 형태
+answer_pattern = re.compile(r"Solution\s*:\s*([A-E])")  # 정답(A~E)
+MAX_INTRO_LINES = 2  # intro_text로 몇 줄을 가져올지
 
 def main():
-    doc = fitz.open(pdf_path)
+    # (1) solution_page_map.json 로드
+    with open(solution_pg_map_file, "r", encoding="utf-8") as f:
+        sol_map = json.load(f)
+        # 구조 예: {"1": {"page_number":2}, "2": {"page_number":2}, ...}
 
-    # 모든 페이지 텍스트에 (E) 삽입
-    all_text = []
+    # (2) PDF 열고, 각 페이지 뒤에 (E)를 삽입
+    doc = fitz.open(pdf_path)
+    all_text_parts = []
     for page_index in range(len(doc)):
         text = doc[page_index].get_text("text")
-        all_text.append(text)
-        all_text.append("\n" + END_MARKER + "\n")
-    merged_text = "".join(all_text)
+        # 페이지 내용 + (E)
+        all_text_parts.append(text)
+        all_text_parts.append("\n" + END_MARKER + "\n")
 
-    # (E)로 블록 분할
+    merged_text = "".join(all_text_parts)
+
+    # (E) 기준으로 큰 블록 분할
     raw_blocks = re.split(r"\(E\)\s*", merged_text)
     blocks = [b.strip() for b in raw_blocks if b.strip()]
 
@@ -39,9 +37,11 @@ def main():
 
     def save_problem(q_num, block_lines):
         """
-        q_num (str), block_lines (list of str)
-        1) 정답 찾기
-        2) intro_text는 "Solution: X" 다음 줄부터
+        문제번호 q_num, 블록 라인들 block_lines를 받아
+        - 정답(answer)
+        - intro_text (“Solution: …” 바로 다음 줄부터)
+        - page_number
+        를 추출하여 results에 append.
         """
         joined_text = "\n".join(block_lines)
 
@@ -49,46 +49,39 @@ def main():
         ans_match = answer_pattern.search(joined_text)
         answer_char = ans_match.group(1) if ans_match else None
 
-        # B) “문제번호 + Solution” 라인이 어디 있나 찾고, 그 다음 줄부터 intro_text
-        intro_text = ""
-        # line index
+        # B) page_number (solution_pg_map.json 이용)
+        page_number = None
+        if q_num in sol_map:
+            page_number = sol_map[q_num].get("page_number")
+
+        # C) intro_text : “문제번호 + Solution: X” 라인 찾고, 그 다음 줄부터 N줄
         sol_line_idx = None
-        # 문제번호 라인 = block_lines[0] 가정할 수도 있으나, 혹시 중간에 있는 경우도 감안
-        # "n. Solution: X" 구문을 찾으면 그 line index+1부터 intro_text
         for i, line in enumerate(block_lines):
-            # 문제번호와 "Solution:"이 함께 있는지 확인
-            if question_num_pattern.search(line) and "Solution:" in line:
+            if "Solution:" in line:
+                # 예: "1. Solution: A"
                 sol_line_idx = i
                 break
 
-        # sol_line_idx가 None이 아니면, 그 다음 줄부터 intro_text
-        # 최대 MAX_INTRO_LINES 줄
+        intro_text = ""
         if sol_line_idx is not None:
-            start_intro = sol_line_idx + 1
-            end_intro = start_intro + MAX_INTRO_LINES
-            snippet_lines = block_lines[start_intro:end_intro]
-            intro_text = "\n".join(snippet_lines).strip()
+            # 그 다음 줄부터 MAX_INTRO_LINES줄
+            start_idx = sol_line_idx + 1
+            snippet = block_lines[start_idx : start_idx + MAX_INTRO_LINES]
+            intro_text = "\n".join(snippet).strip()
         else:
-            # "Solution:" 라인을 못 찾으면, 그냥 block_lines[1:] 몇 줄만 intro
-            # (혹은 empty)
-            snippet_lines = block_lines[1:1+MAX_INTRO_LINES]
-            intro_text = "\n".join(snippet_lines).strip()
+            # 혹시 못 찾으면, block_lines[1:N]을 intro_text로
+            snippet = block_lines[1 : 1 + MAX_INTRO_LINES]
+            intro_text = "\n".join(snippet).strip()
 
-        # C) 수식 포함 여부
-        eq_found = bool(equation_pattern.search(joined_text))
-
-        # D) page_number는 None
-        page_number = None
-
+        # 최종 저장 (equations 없이)
         results.append({
             "question_num": q_num,
             "page_number": page_number,
             "answer": answer_char,
-            "intro_text": intro_text,
-            "equations": eq_found
+            "intro_text": intro_text
         })
 
-    # 블록별로 문제번호 감지
+    # (3) 블록을 순회, 문제번호 정규식으로 세분화
     for block in blocks:
         lines = block.splitlines()
         current_qnum = None
@@ -97,10 +90,10 @@ def main():
         for line in lines:
             q_match = question_num_pattern.match(line)
             if q_match:
-                # 이전 문제 저장
+                # 이미 인식된 문제 있으면 저장
                 if current_qnum and current_lines:
                     save_problem(current_qnum, current_lines)
-                # 새 문제 시작
+                # 새 문제번호
                 current_qnum = q_match.group(1)
                 current_lines = [line]
             else:
@@ -111,11 +104,11 @@ def main():
         if current_qnum and current_lines:
             save_problem(current_qnum, current_lines)
 
+    # (4) JSON으로 저장
     with open(output_json, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
-    print(f"[완료] 총 {len(results)}개 문제 항목을 '{output_json}'에 저장했습니다.")
-
+    print(f"[완료] 총 {len(results)}개 문제를 '{output_json}'에 저장했습니다.")
 
 if __name__ == "__main__":
     main()
