@@ -1,0 +1,2312 @@
+{
+  "1": {
+    "page_number": 2,
+    "answer": null,
+    "intro_text": ""
+  },
+  "2": {
+    "page_number": 2,
+    "answer": null,
+    "intro_text": ""
+  },
+  "3": {
+    "page_number": 3,
+    "answer": null,
+    "intro_text": "Checking Condition 1, only I and II are present value-matched, so can rule out III at this point."
+  },
+  "4": {
+    "page_number": 4,
+    "answer": "C",
+    "intro_text": "( )"
+  },
+  "5": {
+    "page_number": 4,
+    "answer": "C",
+    "intro_text": "The interest earned is a decreasing annuity of 6, 5.4, etc. Combined with the annual deposits of 100, the accumulated value in fund Y is"
+  },
+  "6": {
+    "page_number": 4,
+    "answer": "D",
+    "intro_text": "For the first 10 years, each payment equals 150% of interest due. The lender charges 10%, therefore 5% of the principal outstanding will be used to reduce the principal."
+  },
+  "7": {
+    "page_number": 5,
+    "answer": "B",
+    "intro_text": "The book value at time 6 is the present value of future payments: 4"
+  },
+  "8": {
+    "page_number": 5,
+    "answer": "A",
+    "intro_text": "The value of the perpetuity after the fifth payment is 100/0.08 = 1250. The equation to solve is: 2"
+  },
+  "9": {
+    "page_number": 5,
+    "answer": "C",
+    "intro_text": "Equation of value at end of 30 years: 40"
+  },
+  "10": {
+    "page_number": 5,
+    "answer": "E",
+    "intro_text": "The accumulation function is 2"
+  },
+  "11": {
+    "page_number": 6,
+    "answer": "A",
+    "intro_text": "5 5 9.2%"
+  },
+  "12": {
+    "page_number": 6,
+    "answer": "B",
+    "intro_text": "10 0.0807 Option 1: 2000"
+  },
+  "13": {
+    "page_number": 6,
+    "answer": "B",
+    "intro_text": "Monthly payment at time t is 1"
+  },
+  "14": {
+    "page_number": 7,
+    "answer": "C",
+    "intro_text": "The equation of value is ("
+  },
+  "15": {
+    "page_number": 7,
+    "answer": "B",
+    "intro_text": "Convert 9% convertible quarterly to an effective rate of j per month: 3"
+  },
+  "16": {
+    "page_number": 7,
+    "answer": "A",
+    "intro_text": "Equating present values: 2"
+  },
+  "17": {
+    "page_number": 8,
+    "answer": "A",
+    "intro_text": "The accumulation function is: ("
+  },
+  "18": {
+    "page_number": 8,
+    "answer": "D",
+    "intro_text": "Let C be the redemption value and 1/ (1"
+  },
+  "19": {
+    "page_number": 8,
+    "answer": "D",
+    "intro_text": "Equate net present values: 2"
+  },
+  "20": {
+    "page_number": 8,
+    "answer": "D",
+    "intro_text": "The present value of the perpetuity = X/i. Let B be the present value of Brian’s payments. 2"
+  },
+  "21": {
+    "page_number": 9,
+    "answer": "D",
+    "intro_text": "The given information yields the following amounts of interest paid: 10"
+  },
+  "22": {
+    "page_number": 9,
+    "answer": "E",
+    "intro_text": "For Bruce, 11"
+  },
+  "23": {
+    "page_number": 9,
+    "answer": "D",
+    "intro_text": "Year t interest is 1"
+  },
+  "24": {
+    "page_number": 9,
+    "answer": "B",
+    "intro_text": "For the first perpetuity, 3"
+  },
+  "26": {
+    "page_number": 10,
+    "answer": "D",
+    "intro_text": "The present value is 2"
+  },
+  "27": {
+    "page_number": 10,
+    "answer": "C",
+    "intro_text": "The first cash flow of 60,000 at time 3 earns 2400 in interest for a time 4 receipt of 62,400. Combined with the final payment, the investment returns 122,400 at time 4. The present value is"
+  },
+  "28": {
+    "page_number": 10,
+    "answer": "B",
+    "intro_text": "Using spot rates, the value of the bond is: 2"
+  },
+  "29": {
+    "page_number": 10,
+    "answer": "E",
+    "intro_text": "Using spot rates, the value of the bond is: 2"
+  },
+  "30": {
+    "page_number": 10,
+    "answer": "C",
+    "intro_text": "Duration is the negative derivative of the price multiplied by one plus the interest rate and divided by the price. Hence, the duration is –(–700)(1.08)/100 = 7.56."
+  },
+  "31": {
+    "page_number": 10,
+    "answer": "C",
+    "intro_text": "The size of the dividend does not matter, so assume it is 1. Then the duration is 1"
+  },
+  "32": {
+    "page_number": 11,
+    "answer": "B",
+    "intro_text": "1 1"
+  },
+  "33": {
+    "page_number": 11,
+    "answer": "A",
+    "intro_text": "The outstanding balance is the present value of future payments. With only one future payment, that payment must be 559.12(1.08) = 603.85. The amount borrowed is"
+  },
+  "34": {
+    "page_number": 11,
+    "answer": "B",
+    "intro_text": "Because the yield rate equals the coupon rate, Bill paid 1000 for the bond. In return he receives 30 every six months, which accumulates to"
+  },
+  "35": {
+    "page_number": 11,
+    "answer": "A",
+    "intro_text": "To receive 3000 per month at age 65 the fund must accumulate to 3,000(1,000/9.65) = 310,880.83. The equation of value is"
+  },
+  "36": {
+    "page_number": 11,
+    "answer": "D",
+    "intro_text": "(A) The left-hand side evaluates the deposits at age 0, while the right-hand side evaluates the withdrawals at age 17."
+  },
+  "37": {
+    "page_number": 12,
+    "answer": "D",
+    "intro_text": "Because only Bond II provides a cash flow at time 1, it must be considered first. The bond provides 1025 at time 1 and thus 1000/1025 = 0.97561 units of this bond provides the required"
+  },
+  "38": {
+    "page_number": 12,
+    "answer": "C",
+    "intro_text": "Because only Mortgage II provides a cash flow at time two, it must be considered first. The mortgage provides"
+  },
+  "39": {
+    "page_number": 12,
+    "answer": "A",
+    "intro_text": "Bond I provides the cash flow at time one. Because 1000 is needed, one unit of the bond should be purchased, at a cost of 1000/1.06 = 943.40."
+  },
+  "40": {
+    "page_number": 12,
+    "answer": "C",
+    "intro_text": "Given the coupon rate is greater than the yield rate, the bond sells at a premium. Thus, the minimum yield rate for this callable bond is calculated based on a call at the earliest possible"
+  },
+  "41": {
+    "page_number": 12,
+    "answer": "B",
+    "intro_text": "Because 40/1200 is greater than 0.03, for early redemption the earliest redemption should be evaluated. If redeemed after 15 years, the price is"
+  },
+  "42": {
+    "page_number": 13,
+    "answer": "E",
+    "intro_text": "Given the coupon rate is less than the yield rate, the bond sells at a discount. Thus, the minimum yield rate for this callable bond is calculated based on a call at the latest possible date because"
+  },
+  "43": {
+    "page_number": 13,
+    "answer": "B",
+    "intro_text": "Given the price is less than the amount paid for an early call, the minimum yield rate for this callable bond is calculated based on a call at the latest possible date. Thus, for an early call, the"
+  },
+  "44": {
+    "page_number": 13,
+    "answer": "C",
+    "intro_text": "First, the present value of the liability is 15 6.2%"
+  },
+  "46": {
+    "page_number": 14,
+    "answer": "E",
+    "intro_text": "1 2"
+  },
+  "47": {
+    "page_number": 14,
+    "answer": "E",
+    "intro_text": "Let F, C, r, and i have their usual interpretations. The discount is ( )"
+  },
+  "48": {
+    "page_number": 14,
+    "answer": "A",
+    "intro_text": "8 5 1 1"
+  },
+  "49": {
+    "page_number": 15,
+    "answer": "D",
+    "intro_text": "18 18"
+  },
+  "50": {
+    "page_number": 15,
+    "answer": "C",
+    "intro_text": "If the bond has no premium or discount, it was bought at par so the yield rate equals the coupon rate, 0.038."
+  },
+  "51": {
+    "page_number": 15,
+    "answer": "A",
+    "intro_text": "[ ]"
+  },
+  "52": {
+    "page_number": 15,
+    "answer": "E",
+    "intro_text": "3 2"
+  },
+  "53": {
+    "page_number": 16,
+    "answer": "C",
+    "intro_text": "Let 0"
+  },
+  "5250": {
+    "page_number": null,
+    "answer": null,
+    "intro_text": ""
+  },
+  "54": {
+    "page_number": 16,
+    "answer": "A",
+    "intro_text": "Let N be the number of shares bought of the bond as indicated by the subscript. (105)"
+  },
+  "55": {
+    "page_number": 16,
+    "answer": "B",
+    "intro_text": "All are true except B. Immunization requires frequent rebalancing."
+  },
+  "56": {
+    "page_number": 16,
+    "answer": "D",
+    "intro_text": "Set up the following two equations in the two unknowns: 2"
+  },
+  "57": {
+    "page_number": 17,
+    "answer": "A",
+    "intro_text": "Set up the following two equations in the two unknowns. 3"
+  },
+  "58": {
+    "page_number": 17,
+    "answer": "D",
+    "intro_text": "2 9"
+  },
+  "59": {
+    "page_number": 17,
+    "answer": "D",
+    "intro_text": "Throughout the solution, let j = i/2. For bond A, the coupon rate is (i + 0.04)/2 = j + 0.02."
+  },
+  "60": {
+    "page_number": 18,
+    "answer": "D",
+    "intro_text": "The initial level monthly payment is 15 12 0.09/12"
+  },
+  "61": {
+    "page_number": 18,
+    "answer": "D",
+    "intro_text": "The price of the first bond is 30 2"
+  },
+  "62": {
+    "page_number": 18,
+    "answer": "E",
+    "intro_text": "Let n = years. The equation to solve is 2"
+  },
+  "63": {
+    "page_number": 19,
+    "answer": "A",
+    "intro_text": "Equating the accumulated values after 4 years provides an equation in K. 4"
+  },
+  "64": {
+    "page_number": 19,
+    "answer": "D",
+    "intro_text": "The outstanding balance at time 25 is 25"
+  },
+  "65": {
+    "page_number": 19,
+    "answer": "C",
+    "intro_text": "The accumulated value is 20 0.0816"
+  },
+  "66": {
+    "page_number": 20,
+    "answer": "D",
+    "intro_text": "For the first perpetuity, ("
+  },
+  "67": {
+    "page_number": 20,
+    "answer": "E",
+    "intro_text": "5 5"
+  },
+  "68": {
+    "page_number": 20,
+    "answer": "C",
+    "intro_text": "5 10 0.06"
+  },
+  "69": {
+    "page_number": 20,
+    "answer": "E",
+    "intro_text": "The monthly payment on the original loan is 180 8/12%"
+  },
+  "70": {
+    "page_number": 21,
+    "answer": "E",
+    "intro_text": "At the time of the final deposit the fund has 18 0.07"
+  },
+  "71": {
+    "page_number": 21,
+    "answer": "B",
+    "intro_text": "The coupons are 1000(0.09)/2 = 45. The present value of the coupons and redemption value at 5% per semiannual period is"
+  },
+  "72": {
+    "page_number": 21,
+    "answer": "A",
+    "intro_text": "For a bond bought at discount, the minimum price will occur at the latest possible redemption date."
+  },
+  "73": {
+    "page_number": 21,
+    "answer": "C",
+    "intro_text": "5 4"
+  },
+  "74": {
+    "page_number": 21,
+    "answer": "D",
+    "intro_text": "The accumulated value of the first year of payments is 12 0.005"
+  },
+  "75": {
+    "page_number": 22,
+    "answer": "A",
+    "intro_text": "The monthly interest rate is 0.072/12 = 0.006. 6500 five years from today has value 60"
+  },
+  "76": {
+    "page_number": 22,
+    "answer": "C",
+    "intro_text": "( )"
+  },
+  "77": {
+    "page_number": 22,
+    "answer": "C",
+    "intro_text": "The monthly interest rate is 0.042/12 = 0.0035. The quarterly interest rate is 3"
+  },
+  "78": {
+    "page_number": 23,
+    "answer": "D",
+    "intro_text": "Convert the two annual rates, 4% and 5%, to two-year rates as 2"
+  },
+  "79": {
+    "page_number": 23,
+    "answer": "C",
+    "intro_text": "( )"
+  },
+  "80": {
+    "page_number": 23,
+    "answer": "B",
+    "intro_text": "perp. 10"
+  },
+  "81": {
+    "page_number": 23,
+    "answer": "A",
+    "intro_text": "14 14 0.03"
+  },
+  "82": {
+    "page_number": 25,
+    "answer": "D",
+    "intro_text": "The amount of the loan is the present value of the deferred increasing annuity: 30"
+  },
+  "83": {
+    "page_number": 25,
+    "answer": "C",
+    "intro_text": "30 30"
+  },
+  "84": {
+    "page_number": 25,
+    "answer": "D",
+    "intro_text": "The first payment is 2,000, and the second payment of 2,010 is 1.005 times the first payment. Since we are given that the series of quarterly payments is geometric, the payments multiply by"
+  },
+  "85": {
+    "page_number": 25,
+    "answer": "A",
+    "intro_text": "Present value for the ﬁrst 10 years is ("
+  },
+  "86": {
+    "page_number": 26,
+    "answer": "C",
+    "intro_text": "( )"
+  },
+  "87": {
+    "page_number": 26,
+    "answer": "D",
+    "intro_text": "The effective annual interest rate is 1"
+  },
+  "88": {
+    "page_number": 26,
+    "answer": "C",
+    "intro_text": "2 4"
+  },
+  "89": {
+    "page_number": 26,
+    "answer": "C",
+    "intro_text": "The monthly payment is 360 0.005"
+  },
+  "90": {
+    "page_number": 26,
+    "answer": "D",
+    "intro_text": "The annual effective interest rate is 0.08/(1 – 0.08) = 0.08696. The level payments are 5 0.08696"
+  },
+  "91": {
+    "page_number": 27,
+    "answer": "B",
+    "intro_text": "The accumulated value is the reciprocal of the price. The equation is X[(1/0.94)+(1/0.95)+(1/0.96)+(1/0.97)+(1/0.98)+(1/0.99)] = 100,000."
+  },
+  "92": {
+    "page_number": 27,
+    "answer": "D",
+    "intro_text": "Let P be the annual payment. The fifth line is obtained by solving a quadratic equation. 10"
+  },
+  "93": {
+    "page_number": 27,
+    "answer": "A",
+    "intro_text": "Let j = periodic yield rate, r = periodic coupon rate, F = redemption (face) value, P = price, n = number of time periods, and"
+  },
+  "94": {
+    "page_number": 27,
+    "answer": "B",
+    "intro_text": "Jeff’s monthly cash flows are coupons of 10,000(0.09)/12 = 75 less loan payments of 2000(0.08)/12 = 13.33 for a net income of 61.67. At the end of the ten years (in addition to the"
+  },
+  "95": {
+    "page_number": 28,
+    "answer": "B",
+    "intro_text": "The present value equation for a par-valued annual coupon bond is n"
+  },
+  "96": {
+    "page_number": 28,
+    "answer": "A",
+    "intro_text": "The effective semi-annual yield rate is 2"
+  },
+  "97": {
+    "page_number": 28,
+    "answer": "E",
+    "intro_text": "Book values are linked by BV3(1 + i) – Fr = BV4. Thus 1254.87(1.06) – Fr = 1277.38. Therefore, the coupon is Fr = 52.7822. The prospective formula for the book value at time 3 is"
+  },
+  "98": {
+    "page_number": 29,
+    "answer": "A",
+    "intro_text": "Book values are linked by BV3(1 + i) – Fr = BV4. Thus BV3(1.04) – 2500(0.035) = BV3 + 8.44. Therefore, BV3 = [2500(0.035) + 8.44]/0.04 = 2398.5. The prospective formula for the"
+  },
+  "99": {
+    "page_number": 29,
+    "answer": "C",
+    "intro_text": "( )"
+  },
+  "100": {
+    "page_number": 29,
+    "answer": "B",
+    "intro_text": "The Macaulay duration of Annuity A is 2"
+  },
+  "101": {
+    "page_number": 29,
+    "answer": "D",
+    "intro_text": "With v =1/1.07, 2"
+  },
+  "102": {
+    "page_number": 30,
+    "answer": "C",
+    "intro_text": "2 0"
+  },
+  "103": {
+    "page_number": 30,
+    "answer": "B",
+    "intro_text": "I) False. The yield curve structure is not relevant."
+  },
+  "104": {
+    "page_number": 30,
+    "answer": "A",
+    "intro_text": "The present value function and its derivatives are 3"
+  },
+  "105": {
+    "page_number": 31,
+    "answer": "D",
+    "intro_text": "This solution uses time 8 as the valuation time. The two equations to solve are 2"
+  },
+  "106": {
+    "page_number": 31,
+    "answer": "A",
+    "intro_text": "This solution uses Macaulay duration and convexity. The same conclusion would result had modified duration and convexity been used."
+  },
+  "107": {
+    "page_number": 31,
+    "answer": "D",
+    "intro_text": "The present value of the liabilities is 1000, so that requirement is met. The duration of the liabilities is"
+  },
+  "108": {
+    "page_number": 32,
+    "answer": "A",
+    "intro_text": "Let x, y, and z represent the amounts invested in the 5-year, 15-year, and 20-year zero-coupon bonds, respectively. Note that in this problem, one of these three variables is 0."
+  },
+  "109": {
+    "page_number": 32,
+    "answer": "E",
+    "intro_text": "The correct answer is the lowest cost portfolio that provides for $11,000 at the end of year one and provides for $12,100 at the end of year two. Let H, I, and J represent the face amount of each"
+  },
+  "110": {
+    "page_number": 33,
+    "answer": "C",
+    "intro_text": "The strategy is to use the two highest yielding assets: the one-year bond and the two-year zero- coupon bond. The cost of these bonds is"
+  },
+  "111": {
+    "page_number": 33,
+    "answer": "E",
+    "intro_text": "Let P be the annual interest paid. The present value of John’s payments is 0.05"
+  },
+  "112": {
+    "page_number": 33,
+    "answer": "A",
+    "intro_text": "Cheryl’s force of interest at all times is ln(1.07) = 0.06766. Gomer’s accumulation function is from time 3 is 1 + yt and the force of interest is y/(1 + yt). To be equal at time 2, the equation is"
+  },
+  "113": {
+    "page_number": 33,
+    "answer": "D",
+    "intro_text": "One way to view these payments is as a sequence of level immediate perpetuities of 1 that are deferred n-1, n, n+1,… years. The present value is then"
+  },
+  "114": {
+    "page_number": 33,
+    "answer": "B",
+    "intro_text": "The monthly interest rate is 1/12"
+  },
+  "115": {
+    "page_number": 34,
+    "answer": "D",
+    "intro_text": "20 10"
+  },
+  "116": {
+    "page_number": 34,
+    "answer": "B",
+    "intro_text": "The present value is 3"
+  },
+  "117": {
+    "page_number": 34,
+    "answer": "C",
+    "intro_text": "From the first annuity, 0.109"
+  },
+  "118": {
+    "page_number": 34,
+    "answer": "C",
+    "intro_text": "60 60"
+  },
+  "119": {
+    "page_number": 35,
+    "answer": "E",
+    "intro_text": "Let j be the semi-annual interest rate. Then, 1"
+  },
+  "120": {
+    "page_number": 35,
+    "answer": "B",
+    "intro_text": "The present value is 2"
+  },
+  "121": {
+    "page_number": 35,
+    "answer": "A",
+    "intro_text": "The present value of the income is 0.1025"
+  },
+  "122": {
+    "page_number": 35,
+    "answer": "A",
+    "intro_text": "The present value of the ten level payments is 10 0.05"
+  },
+  "123": {
+    "page_number": 35,
+    "answer": "D",
+    "intro_text": "The equation of value is 0.06"
+  },
+  "124": {
+    "page_number": 36,
+    "answer": "D",
+    "intro_text": "Discounting at 10%, the net present values are 4.59, –2.36, and –9.54 for Projects A, B, and C respectively. Hence, only Project A should be funded. Note that Project C’s net present value"
+  },
+  "125": {
+    "page_number": 36,
+    "answer": "D",
+    "intro_text": "The loan balance after 10 years is still 100,000. For the next 10 payments, the interest paid is 10% of the outstanding balance and therefore the principal repaid is 5% of the outstanding"
+  },
+  "126": {
+    "page_number": 36,
+    "answer": "B",
+    "intro_text": "First determine number of regular payments: 4"
+  },
+  "127": {
+    "page_number": 36,
+    "answer": "C",
+    "intro_text": "( )"
+  },
+  "128": {
+    "page_number": 36,
+    "answer": "A",
+    "intro_text": "The principal repaid in the first payment is 100 – iL. The outstanding principal is L – 100 + iL = L + 25. Hence, iL = 125. Also,"
+  },
+  "129": {
+    "page_number": 37,
+    "answer": "E",
+    "intro_text": "Let j be the monthly rate and X be the level monthly payment. The principal repaid in the first payment is 1400 = X – 60,000j. The principal repaid in the second payment is 1414 = X –"
+  },
+  "130": {
+    "page_number": 37,
+    "answer": "C",
+    "intro_text": "The accumulated value is ("
+  },
+  "131": {
+    "page_number": 37,
+    "answer": "C",
+    "intro_text": "Each month the principal paid increases by 1/12"
+  },
+  "132": {
+    "page_number": 37,
+    "answer": "C",
+    "intro_text": "20 10"
+  },
+  "133": {
+    "page_number": 37,
+    "answer": "C",
+    "intro_text": "The original monthly payment is 240 0.005"
+  },
+  "134": {
+    "page_number": 38,
+    "answer": "B",
+    "intro_text": "Just prior to the extra payment at time 5, the outstand balance is 20 0.07"
+  },
+  "135": {
+    "page_number": 38,
+    "answer": "C",
+    "intro_text": "During the first redemption period the modified coupon rate is 1000(0.035)/1250 = 2.80% which is larger than the desired yield rate. If redeemed during this period, bond sells at a premium and"
+  },
+  "136": {
+    "page_number": 38,
+    "answer": "B",
+    "intro_text": "Because the yield is less than the coupon rate, the bond sells at a premium and the worst case for the buyer is an early call. Hence the price should be calculated based on the bond being called at"
+  },
+  "137": {
+    "page_number": 38,
+    "answer": "A",
+    "intro_text": "All calculations are in millions. For the ten-year bond, at time ten it is redeemed for 10"
+  },
+  "138": {
+    "page_number": 38,
+    "answer": "A",
+    "intro_text": "The book value after the third coupon is 37"
+  },
+  "139": {
+    "page_number": 40,
+    "answer": "C",
+    "intro_text": "The semiannual yield rate is 1/2"
+  },
+  "140": {
+    "page_number": 40,
+    "answer": "C",
+    "intro_text": "The book value after the sixth coupon is 34"
+  },
+  "141": {
+    "page_number": 40,
+    "answer": "B",
+    "intro_text": "The two equations are: 5"
+  },
+  "142": {
+    "page_number": 40,
+    "answer": "C",
+    "intro_text": "When the yield is 6.8% < 8%, the bond is sold at a premium and hence an early call is most disadvantageous. Therefore,"
+  },
+  "143": {
+    "page_number": 41,
+    "answer": "B",
+    "intro_text": "The fund will have 4"
+  },
+  "144": {
+    "page_number": 41,
+    "answer": "B",
+    "intro_text": "The Macaulay duration of the perpetuity is 2"
+  },
+  "145": {
+    "page_number": 41,
+    "answer": "A",
+    "intro_text": "Because the interest rate is greater than zero, the Macaulay duration of each bond is greater than its modified duration. Therefore, the bond with a Macaulay duration of c must be the bond with a"
+  },
+  "146": {
+    "page_number": 41,
+    "answer": "B",
+    "intro_text": "11 1.10"
+  },
+  "147": {
+    "page_number": 41,
+    "answer": "B",
+    "intro_text": "Cash-flow matching limits the number of investment choices available to the portfolio manager to a subset of the choices available for immunization."
+  },
+  "148": {
+    "page_number": 42,
+    "answer": "C",
+    "intro_text": "Options for full immunization are: 2J (cost is 3000), K+2L (cost is 2500), and M (cost is 4000). The lowest possible cost is 2500."
+  },
+  "149": {
+    "page_number": 42,
+    "answer": "B",
+    "intro_text": "The present value of the assets is 15,000 + 45,000 = 60,000 which is also the present value of the liability. The modified duration of the assets is the weighted average, or 0.25(1.80) + 0.75Dmod."
+  },
+  "150": {
+    "page_number": 42,
+    "answer": "C",
+    "intro_text": "Let A be the redemption value of the zero-coupon bonds purchased and B the number of two- year bonds purchased. The total present value is:"
+  },
+  "151": {
+    "page_number": 42,
+    "answer": "B",
+    "intro_text": "The company must purchase 4000 in one-year bonds and 6000 in two-year bonds. The total purchase price is"
+  },
+  "152": {
+    "page_number": 42,
+    "answer": "C",
+    "intro_text": "The modified duration is 11/1.10 = 10. Then, (0.1025)"
+  },
+  "153": {
+    "page_number": 42,
+    "answer": "B",
+    "intro_text": "7.959 1.072"
+  },
+  "154": {
+    "page_number": 42,
+    "answer": "E",
+    "intro_text": "Modified duration = (Macaulay duration)/(1 + i) and so Macaulay duration = 8(1.064) = 8.512. 8.512"
+  },
+  "155": {
+    "page_number": 43,
+    "answer": "C",
+    "intro_text": "The Macaulay duration of the portfolio is 35,000(7.28) 65,000(12.74)"
+  },
+  "156": {
+    "page_number": 43,
+    "answer": "A",
+    "intro_text": "1.05 ln(121,212 /123,000)"
+  },
+  "157": {
+    "page_number": 43,
+    "answer": "A",
+    "intro_text": "I provides cash flows that exactly matches the liabilities. II only has PV(A) = PV(B), which is not sufficient for exact matching. III describes Redington immunization, not exact matching."
+  },
+  "158": {
+    "page_number": 43,
+    "answer": "D",
+    "intro_text": "Let F be the face amount of Bond X. Then, 15"
+  },
+  "159": {
+    "page_number": 43,
+    "answer": "D",
+    "intro_text": "The value of 1 invested with bank P after three years is 3"
+  },
+  "160": {
+    "page_number": 44,
+    "answer": "D",
+    "intro_text": "With a continuously compounded annual interest rate of 6%, 0.06."
+  },
+  "161": {
+    "page_number": 44,
+    "answer": "B",
+    "intro_text": "The amount of principal repaid at payment 15 is (where R is the quarterly payment) 40 15 1"
+  },
+  "162": {
+    "page_number": 44,
+    "answer": "E",
+    "intro_text": "The present value of the payments (4000 at month 36 plus the payments of X) must match the present value of the present value of the amounts borrowed (4000 at month 0 plus the payments"
+  },
+  "163": {
+    "page_number": 45,
+    "answer": "B",
+    "intro_text": "Let r be the coupon rate for Bond A. The coupon rate for Bond B is then r + 0.01. Then, 20"
+  },
+  "164": {
+    "page_number": 45,
+    "answer": "E",
+    "intro_text": "Let n be the number of payments and let j be the interest rate per half-year. Because the given values are n – 1 half-years apart,"
+  },
+  "165": {
+    "page_number": 45,
+    "answer": "B",
+    "intro_text": "The denominator of the duration is the present value of the annuity: 20"
+  },
+  "166": {
+    "page_number": 45,
+    "answer": "A",
+    "intro_text": "( )"
+  },
+  "167": {
+    "page_number": 46,
+    "answer": "D",
+    "intro_text": "Let C be the amount of the semiannual coupon for bond B. 10"
+  },
+  "168": {
+    "page_number": 46,
+    "answer": "C",
+    "intro_text": "Let X be the original loan value. From the original loan terms, 15"
+  },
+  "169": {
+    "page_number": 46,
+    "answer": "A",
+    "intro_text": "The effective monthly rate is 1/12"
+  },
+  "170": {
+    "page_number": null,
+    "answer": null,
+    "intro_text": "Solution D Fund K receives 1000 at the end of each year and also receives interest payments of 1300, 1235,"
+  },
+  "171": {
+    "page_number": 47,
+    "answer": "D",
+    "intro_text": "For Q the accumulated value is 25 0.09"
+  },
+  "172": {
+    "page_number": 47,
+    "answer": "E",
+    "intro_text": "The accumulated values for Funds X and Y are 10"
+  },
+  "173": {
+    "page_number": 47,
+    "answer": "A",
+    "intro_text": "The 3-year interest rate is 3"
+  },
+  "174": {
+    "page_number": 47,
+    "answer": "B",
+    "intro_text": "0.06 0.06"
+  },
+  "175": {
+    "page_number": 48,
+    "answer": "B",
+    "intro_text": "( )"
+  },
+  "176": {
+    "page_number": 48,
+    "answer": "E",
+    "intro_text": "Based on the effective yield rate, 2"
+  },
+  "177": {
+    "page_number": 48,
+    "answer": "D",
+    "intro_text": "The amount borrowed is 5"
+  },
+  "178": {
+    "page_number": 48,
+    "answer": "B",
+    "intro_text": "The accumulation is 10 0.08"
+  },
+  "179": {
+    "page_number": 48,
+    "answer": "C",
+    "intro_text": "The equation of value is 30"
+  },
+  "180": {
+    "page_number": 49,
+    "answer": "A",
+    "intro_text": "2 3"
+  },
+  "181": {
+    "page_number": 49,
+    "answer": "A",
+    "intro_text": "I is true. II is false, the price sensitivity of assets and liabilities must be equal."
+  },
+  "182": {
+    "page_number": 49,
+    "answer": "D",
+    "intro_text": "The effective annual rate of interest is 12"
+  },
+  "183": {
+    "page_number": 49,
+    "answer": "E",
+    "intro_text": "Let x be the annual payment amount. Macaulay duration is 2"
+  },
+  "184": {
+    "page_number": 49,
+    "answer": "E",
+    "intro_text": "PV of liabilities is 2"
+  },
+  "185": {
+    "page_number": 50,
+    "answer": "E",
+    "intro_text": "A change in face value multiplies all cash flows by the same amount. Therefore, there is no change in the duration. If the coupon rate increases, the coupons become larger, but the"
+  },
+  "186": {
+    "page_number": 50,
+    "answer": "A",
+    "intro_text": "We are given (4) 8%"
+  },
+  "187": {
+    "page_number": 50,
+    "answer": "E",
+    "intro_text": "Let m be the monthly payment and i be the monthly interest rate. The interest in the first payment is 125,000i and the principal repaid is 125,000 – 124,750 = 250. Thus m = 125,000i + 250."
+  },
+  "188": {
+    "page_number": 50,
+    "answer": "C",
+    "intro_text": "Let x and y be the amount invested in the five and twenty year bonds respectively. To match the present values:"
+  },
+  "189": {
+    "page_number": 51,
+    "answer": "C",
+    "intro_text": "Let n be the term of the bond in half-years. We know that 601 1080 n"
+  },
+  "190": {
+    "page_number": 51,
+    "answer": "B",
+    "intro_text": "Principal repaid in the first payment is 1000 – 10,000(0.04) = 600. Therefore, the principle repaid in the tenth payment is"
+  },
+  "191": {
+    "page_number": 51,
+    "answer": "C",
+    "intro_text": "After one year the outstanding balance is 48 0.025"
+  },
+  "192": {
+    "page_number": 51,
+    "answer": "A",
+    "intro_text": "Only Bond III can match the liability at time 3. The bond must mature for 1000. Only Bond II can match the liability at time 2. The face value and coupon must total 1000. If X is the face"
+  },
+  "193": {
+    "page_number": 51,
+    "answer": "A",
+    "intro_text": "Cash flows (in thousands) are 12, 12, 12, 12, and 162. The first bond provides payments of 10, 10, 10, 10, and 110. Therefore, the second bond must provide 2, 2, 2, 2, and 52. This implies a"
+  },
+  "194": {
+    "page_number": 52,
+    "answer": "C",
+    "intro_text": "Let i be the yield rate. Then, 30"
+  },
+  "195": {
+    "page_number": 52,
+    "answer": "A",
+    "intro_text": "The amount of the dividends does not matter, so they will be assumed to be 1. First, calculate the Macaulay duration. The present value of the dividends is"
+  },
+  "196": {
+    "page_number": 52,
+    "answer": "A",
+    "intro_text": "Let r be the semiannual coupon rate. For the original bond, 6"
+  },
+  "197": {
+    "page_number": 52,
+    "answer": "A",
+    "intro_text": "Let h(i) be the present value of the cash flows. For Redington immunization, the value of the function and its first derivative at 25% must be zero and the second derivative must be positive."
+  },
+  "198": {
+    "page_number": 53,
+    "answer": "E",
+    "intro_text": "The bond sells at a premium, so the worst-case scenario is redemption at time six. Then, 6"
+  },
+  "199": {
+    "page_number": 53,
+    "answer": "E",
+    "intro_text": "Answer E is false because the convexity of the assets must be greater than the convexity of the liabilities."
+  },
+  "200": {
+    "page_number": 53,
+    "answer": "E",
+    "intro_text": "The accumulated value to time 4 is 3"
+  },
+  "201": {
+    "page_number": 53,
+    "answer": "E",
+    "intro_text": "The value at time 17 of the payments beginning at time 18 is 2"
+  },
+  "202": {
+    "page_number": 54,
+    "answer": "B",
+    "intro_text": "The initial payment, X is 19"
+  },
+  "203": {
+    "page_number": 54,
+    "answer": "E",
+    "intro_text": "The annual payment is 10 0.1"
+  },
+  "204": {
+    "page_number": null,
+    "answer": null,
+    "intro_text": "DELETED"
+  },
+  "205": {
+    "page_number": 54,
+    "answer": "E",
+    "intro_text": "Let x be the amount invested in Bond A and y the amount invested in Bond B. Then 2y is invested in Bond C. To match the present value of the assets and liabilities:"
+  },
+  "206": {
+    "page_number": 55,
+    "answer": "B",
+    "intro_text": "Let X be the price of Bond X. Then, for the two bonds: 2"
+  },
+  "207": {
+    "page_number": 55,
+    "answer": "B",
+    "intro_text": "With simple interest, the deposit in Bank X earns 1000(0.07) = 70 in year 8. With compound interest, the earning in Bank Y in year 8 is"
+  },
+  "208": {
+    "page_number": 55,
+    "answer": "E",
+    "intro_text": "Split this into two perpetuities. One starts at time 0.5 at 500 increasing by 10 every year. The other starts at time 1 at 500 with payments increasing by 10 every year. The semiannual interest"
+  },
+  "209": {
+    "page_number": 55,
+    "answer": "B",
+    "intro_text": "10 0.05 10 0.05"
+  },
+  "210": {
+    "page_number": 56,
+    "answer": "C",
+    "intro_text": "( )"
+  },
+  "211": {
+    "page_number": 56,
+    "answer": "D",
+    "intro_text": "120 120 0.01"
+  },
+  "212": {
+    "page_number": 56,
+    "answer": "D",
+    "intro_text": "12 12"
+  },
+  "213": {
+    "page_number": 56,
+    "answer": "E",
+    "intro_text": "Using the BAII Plus calculator: n = 12"
+  },
+  "214": {
+    "page_number": 56,
+    "answer": "B",
+    "intro_text": "( )"
+  },
+  "215": {
+    "page_number": 57,
+    "answer": "D",
+    "intro_text": "Equating present values gives 10"
+  },
+  "216": {
+    "page_number": 57,
+    "answer": "E",
+    "intro_text": "20 0.05 ("
+  },
+  "217": {
+    "page_number": 57,
+    "answer": "D",
+    "intro_text": "Equate the accumulated value of the deposits to the present value of the perpetuity: ("
+  },
+  "218": {
+    "page_number": 57,
+    "answer": "C",
+    "intro_text": "20 0.08 10 0.08"
+  },
+  "219": {
+    "page_number": 57,
+    "answer": "C",
+    "intro_text": "3 2"
+  },
+  "220": {
+    "page_number": 58,
+    "answer": "D",
+    "intro_text": "The bank’s accumulated value at the end of 30 years is: ("
+  },
+  "221": {
+    "page_number": 58,
+    "answer": "E",
+    "intro_text": "999.35 x 1.06 = 1059.31 will be available to make the first payment of 1000, leaving 59.31 to be reinvested at X%."
+  },
+  "222": {
+    "page_number": 58,
+    "answer": "E",
+    "intro_text": "4 5"
+  },
+  "223": {
+    "page_number": 58,
+    "answer": "C",
+    "intro_text": "1 1"
+  },
+  "224": {
+    "page_number": 58,
+    "answer": "E",
+    "intro_text": "The amount invested in three-year bond is equal to the PV of the third year’s payout, ("
+  },
+  "225": {
+    "page_number": 58,
+    "answer": "B",
+    "intro_text": "PV = 04"
+  },
+  "226": {
+    "page_number": 59,
+    "answer": "D",
+    "intro_text": "Let i = yield rate, r = coupon rate (if any), F = face value, P = price, n = # of years. For the first bond:"
+  },
+  "227": {
+    "page_number": 59,
+    "answer": "B",
+    "intro_text": "Since the bond has no coupons, the Macaulay duration is the same as the amount of time until maturity, namely 4 years."
+  },
+  "228": {
+    "page_number": 59,
+    "answer": "C",
+    "intro_text": "Using the general Macaulay duration formula: t"
+  },
+  "229": {
+    "page_number": 59,
+    "answer": "C",
+    "intro_text": "When a company’s position is Redington immunized, its position is definitely protected from sufficiently small changes in yield rate, in either direction.  However, its position may or may not"
+  },
+  "230": {
+    "page_number": 60,
+    "answer": "D",
+    "intro_text": "Amount of loan = L 10 10%"
+  },
+  "231": {
+    "page_number": 60,
+    "answer": "E",
+    "intro_text": "Let L = the loan amount. Note that 5"
+  },
+  "232": {
+    "page_number": 61,
+    "answer": "B",
+    "intro_text": "Using the retrospective method: 6"
+  },
+  "233": {
+    "page_number": 61,
+    "answer": "D",
+    "intro_text": "Let t represent the number of years since the beginning of year 1. Since the annual effective interest rate is 3% in each of years 1 through 10, and 2% each year thereafter, the present value"
+  },
+  "234": {
+    "page_number": 61,
+    "answer": "A",
+    "intro_text": "For the first bond: 20"
+  },
+  "235": {
+    "page_number": 62,
+    "answer": "E",
+    "intro_text": "40 40"
+  },
+  "236": {
+    "page_number": 62,
+    "answer": "C",
+    "intro_text": "The PV of the first twenty payments is: 20"
+  },
+  "237": {
+    "page_number": 62,
+    "answer": "B",
+    "intro_text": "1 16,000"
+  },
+  "238": {
+    "page_number": 62,
+    "answer": "E",
+    "intro_text": "Let j equal the five-year interest rate. 5"
+  },
+  "239": {
+    "page_number": 63,
+    "answer": "A",
+    "intro_text": "From the first bond: 8"
+  },
+  "240": {
+    "page_number": 63,
+    "answer": "D",
+    "intro_text": "The PV of the liability is 2"
+  },
+  "241": {
+    "page_number": 63,
+    "answer": "E",
+    "intro_text": "Solution: 3"
+  },
+  "242": {
+    "page_number": 63,
+    "answer": "B",
+    "intro_text": "4 10"
+  },
+  "243": {
+    "page_number": 64,
+    "answer": "D",
+    "intro_text": "Using BA II Plus: 180 0.075/12"
+  },
+  "244": {
+    "page_number": 64,
+    "answer": "C",
+    "intro_text": "20 20 0.10"
+  },
+  "245": {
+    "page_number": 64,
+    "answer": "E",
+    "intro_text": "10 1.15"
+  },
+  "246": {
+    "page_number": 64,
+    "answer": "D",
+    "intro_text": "( )"
+  },
+  "247": {
+    "page_number": 65,
+    "answer": "C",
+    "intro_text": "Given that the problem states that the inequality is true for all interest rates from 0% to 10% and all values of Y, it is sufficient to determine it for one set of values. Select i = 7% and Y = 121."
+  },
+  "248": {
+    "page_number": 65,
+    "answer": "C",
+    "intro_text": "The yield rate on Kate’s bond is (2)"
+  },
+  "249": {
+    "page_number": 66,
+    "answer": "B",
+    "intro_text": "2 4"
+  },
+  "250": {
+    "page_number": 66,
+    "answer": "C",
+    "intro_text": "20 0.03 1000"
+  },
+  "251": {
+    "page_number": 66,
+    "answer": "B",
+    "intro_text": "(12) 1/12"
+  },
+  "252": {
+    "page_number": 66,
+    "answer": "B",
+    "intro_text": "20 20"
+  },
+  "253": {
+    "page_number": 67,
+    "answer": "B",
+    "intro_text": "( )"
+  },
+  "254": {
+    "page_number": 67,
+    "answer": "B",
+    "intro_text": "2 2"
+  },
+  "255": {
+    "page_number": 67,
+    "answer": "D",
+    "intro_text": "If paid in one lump sum, the total interest paid is 20"
+  },
+  "256": {
+    "page_number": 68,
+    "answer": "B",
+    "intro_text": "20 1"
+  },
+  "257": {
+    "page_number": 68,
+    "answer": "B",
+    "intro_text": "2 2"
+  },
+  "258": {
+    "page_number": 68,
+    "answer": "A",
+    "intro_text": "30 30 0.042"
+  },
+  "259": {
+    "page_number": 68,
+    "answer": "C",
+    "intro_text": "Statement I should have an 60"
+  },
+  "260": {
+    "page_number": 69,
+    "answer": "D",
+    "intro_text": "15(961.54)(1) 20(966.14)(2)"
+  },
+  "261": {
+    "page_number": 69,
+    "answer": "B",
+    "intro_text": "17 18 0.10"
+  },
+  "262": {
+    "page_number": 69,
+    "answer": "D",
+    "intro_text": "Using time 5 as the first reference point, then bringing that value back to time 0: ("
+  },
+  "263": {
+    "page_number": 69,
+    "answer": "B",
+    "intro_text": "Let face amount equal 1. ("
+  },
+  "264": {
+    "page_number": 70,
+    "answer": "C",
+    "intro_text": "10 10 0.10"
+  },
+  "265": {
+    "page_number": 70,
+    "answer": "E",
+    "intro_text": "Let I be the amount of interest in the first month. 0"
+  },
+  "266": {
+    "page_number": 70,
+    "answer": "D",
+    "intro_text": "(0, )"
+  },
+  "267": {
+    "page_number": 71,
+    "answer": "A",
+    "intro_text": "180 120 0.005"
+  },
+  "268": {
+    "page_number": 71,
+    "answer": "E",
+    "intro_text": "The conditions 1) assets and liabilities have equal present values and equal modified durations, and"
+  },
+  "269": {
+    "page_number": 71,
+    "answer": "E",
+    "intro_text": "6 6"
+  },
+  "270": {
+    "page_number": 71,
+    "answer": "B",
+    "intro_text": "2 0.05 2"
+  },
+  "271": {
+    "page_number": 72,
+    "answer": "B",
+    "intro_text": "Using the BA II Plus calculator: 2"
+  },
+  "272": {
+    "page_number": 72,
+    "answer": "E",
+    "intro_text": "Value at time 5 years: 20"
+  },
+  "273": {
+    "page_number": 72,
+    "answer": "B",
+    "intro_text": "40 40 0.05"
+  },
+  "274": {
+    "page_number": 73,
+    "answer": "C",
+    "intro_text": "Let Y indicate the nominal value of the two-year bond, then: 2"
+  },
+  "275": {
+    "page_number": 73,
+    "answer": "C",
+    "intro_text": "Macaulay duration of the liability is 3. Asset duration must equal 3. Let P1 and P4 be the present values of the two assets."
+  },
+  "276": {
+    "page_number": 73,
+    "answer": "D",
+    "intro_text": "( )"
+  },
+  "277": {
+    "page_number": 74,
+    "answer": "C",
+    "intro_text": "14 13"
+  },
+  "278": {
+    "page_number": 74,
+    "answer": "E",
+    "intro_text": "The present value of annuity X is 10"
+  },
+  "279": {
+    "page_number": 74,
+    "answer": "D",
+    "intro_text": "12 (12)"
+  },
+  "280": {
+    "page_number": 74,
+    "answer": "C",
+    "intro_text": "( )10 0.05"
+  },
+  "281": {
+    "page_number": 75,
+    "answer": "B",
+    "intro_text": "8 12"
+  },
+  "282": {
+    "page_number": 75,
+    "answer": "D",
+    "intro_text": "2 3"
+  },
+  "283": {
+    "page_number": 75,
+    "answer": "C",
+    "intro_text": "2 2"
+  },
+  "284": {
+    "page_number": 75,
+    "answer": "B",
+    "intro_text": "Assuming the loss of interest is the loss of the last 9 months interest: ("
+  },
+  "285": {
+    "page_number": 76,
+    "answer": "C",
+    "intro_text": "20 0.0925 10"
+  },
+  "286": {
+    "page_number": 76,
+    "answer": "B",
+    "intro_text": "Let j equal the quarterly rate and let k equal the four-year rate."
+  },
+  "287": {
+    "page_number": 76,
+    "answer": "A",
+    "intro_text": "The outstanding loan balance at any point in time is equal to the present value (at that same point in time) of the remaining installment payments."
+  },
+  "288": {
+    "page_number": 76,
+    "answer": "C",
+    "intro_text": "5 10 0.06"
+  },
+  "289": {
+    "page_number": 77,
+    "answer": "C",
+    "intro_text": "Option 1 20 0.05"
+  },
+  "290": {
+    "page_number": 77,
+    "answer": "C",
+    "intro_text": "(2)"
+  },
+  "291": {
+    "page_number": 77,
+    "answer": "B",
+    "intro_text": "2 2"
+  },
+  "292": {
+    "page_number": 78,
+    "answer": "B",
+    "intro_text": "Since the bond is bought at a premium and redemption will occur to the investor’s greatest disadvantage, assume the bond is called at the earliest possible redemption date, or simultaneous"
+  },
+  "293": {
+    "page_number": 78,
+    "answer": "A",
+    "intro_text": "( ) ("
+  },
+  "294": {
+    "page_number": 78,
+    "answer": "E",
+    "intro_text": "4 2"
+  },
+  "295": {
+    "page_number": 78,
+    "answer": "B",
+    "intro_text": "Besides present values of assets and liabilities matching, 1) their modified durations must also match, and 2) the convexity of the assets must exceed the convexity of the liabilities, in order for"
+  },
+  "296": {
+    "page_number": 78,
+    "answer": "B",
+    "intro_text": "Let j be the monthly interest rate. 0.012"
+  },
+  "297": {
+    "page_number": 79,
+    "answer": "C",
+    "intro_text": "27 27"
+  },
+  "298": {
+    "page_number": 79,
+    "answer": "A",
+    "intro_text": "5 5"
+  },
+  "299": {
+    "page_number": 79,
+    "answer": "B",
+    "intro_text": "Let x be the amount invested in the one-year bond and y the amount invested in the four-year bond. First match the present value of assets and liabilities:"
+  },
+  "300": {
+    "page_number": 80,
+    "answer": "C",
+    "intro_text": "40 0.02 20"
+  },
+  "301": {
+    "page_number": 80,
+    "answer": "A",
+    "intro_text": "Since the coupon rate per coupon payment period 4% is greater than the effective rate of interest per coupon payment period 2.9563%, it is to the disadvantage of the bond holder to have the"
+  },
+  "302": {
+    "page_number": 80,
+    "answer": "D",
+    "intro_text": "20 20"
+  },
+  "303": {
+    "page_number": 80,
+    "answer": "D",
+    "intro_text": "First, find ( ) a t"
+  },
+  "304": {
+    "page_number": 81,
+    "answer": "A",
+    "intro_text": "Since Asset Y provides a cash flow at the same time that the liability is due (t = 4), we can apply its 250,000 value to reducing the liability amount from 750,000 to 500,000.  Then, we can"
+  },
+  "305": {
+    "page_number": 81,
+    "answer": "D",
+    "intro_text": "4 (4)"
+  },
+  "306": {
+    "page_number": 81,
+    "answer": "A",
+    "intro_text": "The PV and duration of the liability payments using 7% rate are 12"
+  },
+  "307": {
+    "page_number": 82,
+    "answer": "A",
+    "intro_text": "Let ( ) ( )"
+  },
+  "308": {
+    "page_number": 82,
+    "answer": "D",
+    "intro_text": "Let 1"
+  },
+  "309": {
+    "page_number": 82,
+    "answer": "B",
+    "intro_text": "The PV of the annuity following the 11th payment is: 9 0.06"
+  },
+  "310": {
+    "page_number": 83,
+    "answer": "B",
+    "intro_text": "Split this into three perpetuities with payments 3 years apart.  Find the three-year interest rate: ("
+  },
+  "311": {
+    "page_number": 83,
+    "answer": "E",
+    "intro_text": "Note that had the borrower 1) charged X at the end of month 0, and 2) paid off the remaining"
+  },
+  "312": {
+    "page_number": 83,
+    "answer": "A",
+    "intro_text": "The accumulated value is 2"
+  },
+  "313": {
+    "page_number": 84,
+    "answer": "E",
+    "intro_text": "Break this into two parts – the first 30 increasing payments and the remaining level perpetuity. ("
+  },
+  "314": {
+    "page_number": 84,
+    "answer": "E",
+    "intro_text": "Let n index the payment times in months. Then for a payment at time n, the discount factor is ("
+  },
+  "315": {
+    "page_number": 84,
+    "answer": "A",
+    "intro_text": "Let i be the yield rate, v = 1/(1 + i), and let n be the term.  For Bond A, 20,000 10,000"
+  },
+  "316": {
+    "page_number": 84,
+    "answer": "C",
+    "intro_text": "[ ]"
+  },
+  "317": {
+    "page_number": 85,
+    "answer": "B",
+    "intro_text": "Let Ar  represent the coupon rate of bond A.  The coupon rate of bond B is then"
+  },
+  "318": {
+    "page_number": 85,
+    "answer": "C",
+    "intro_text": "[ ]"
+  },
+  "319": {
+    "page_number": 85,
+    "answer": "C",
+    "intro_text": "40 40 0.025"
+  },
+  "320": {
+    "page_number": 86,
+    "answer": "A",
+    "intro_text": "Let i represent the common yield rate of the two bonds."
+  },
+  "321": {
+    "page_number": 86,
+    "answer": "C",
+    "intro_text": "( ) ("
+  },
+  "322": {
+    "page_number": 86,
+    "answer": "C",
+    "intro_text": "( )"
+  },
+  "323": {
+    "page_number": 87,
+    "answer": "C",
+    "intro_text": "10 8"
+  },
+  "324": {
+    "page_number": 87,
+    "answer": "D",
+    "intro_text": "[ ]"
+  },
+  "325": {
+    "page_number": 87,
+    "answer": "D",
+    "intro_text": "2 2 /2"
+  },
+  "326": {
+    "page_number": 87,
+    "answer": "D",
+    "intro_text": "( )"
+  },
+  "327": {
+    "page_number": 88,
+    "answer": "A",
+    "intro_text": "1 1"
+  },
+  "328": {
+    "page_number": 88,
+    "answer": "C",
+    "intro_text": "36 36 0.01"
+  },
+  "329": {
+    "page_number": 88,
+    "answer": "B",
+    "intro_text": "1 10"
+  },
+  "330": {
+    "page_number": 88,
+    "answer": "E",
+    "intro_text": "Interest earned on the first account is ("
+  },
+  "331": {
+    "page_number": 89,
+    "answer": "D",
+    "intro_text": "5 3"
+  },
+  "332": {
+    "page_number": 89,
+    "answer": "C",
+    "intro_text": "( )"
+  },
+  "333": {
+    "page_number": 89,
+    "answer": "A",
+    "intro_text": "I is false as it is true for small parallel changes in interest rates only. II is false, as the durations will be equal."
+  },
+  "334": {
+    "page_number": 89,
+    "answer": "B",
+    "intro_text": "5 20 0.04"
+  },
+  "335": {
+    "page_number": 89,
+    "answer": "B",
+    "intro_text": "( )"
+  },
+  "336": {
+    "page_number": 90,
+    "answer": "B",
+    "intro_text": "29 0.03 29 0.03"
+  },
+  "337": {
+    "page_number": 90,
+    "answer": "C",
+    "intro_text": "0.0625 33"
+  },
+  "338": {
+    "page_number": 90,
+    "answer": "A",
+    "intro_text": "For a 7.5% yield rate, the present value and Macaulay duration of the assets are, respectively,"
+  },
+  "339": {
+    "page_number": 90,
+    "answer": "B",
+    "intro_text": "Use the full immunization equations and let N be the maturity value of the asset maturing in n years."
+  },
+  "340": {
+    "page_number": 91,
+    "answer": "B",
+    "intro_text": "2 2"
+  },
+  "341": {
+    "page_number": 91,
+    "answer": "B",
+    "intro_text": "( )"
+  },
+  "342": {
+    "page_number": 91,
+    "answer": "E",
+    "intro_text": "If accumulating the payments, they accumulate for 0, 1, …, 39 periods.  This accumulation is"
+  },
+  "343": {
+    "page_number": 91,
+    "answer": "D",
+    "intro_text": "The cost to purchase the bond at the end of year 3 is"
+  },
+  "344": {
+    "page_number": 92,
+    "answer": "A",
+    "intro_text": "Let a, b, and c represent the face values of the three bonds.  One, two, three, and four years from now, respectively:"
+  },
+  "345": {
+    "page_number": 92,
+    "answer": "E",
+    "intro_text": "(2) (2)"
+  },
+  "346": {
+    "page_number": 93,
+    "answer": "B",
+    "intro_text": "The price of a one-year bond for 1000 is 2"
+  },
+  "347": {
+    "page_number": 93,
+    "answer": "A",
+    "intro_text": "The current value for couch #2 is 0.1(4/12)"
+  },
+  "348": {
+    "page_number": 93,
+    "answer": "A",
+    "intro_text": "20 1.05"
+  },
+  "349": {
+    "page_number": 93,
+    "answer": "A",
+    "intro_text": "Solution: 0.5(0.4)"
+  },
+  "350": {
+    "page_number": 94,
+    "answer": "D",
+    "intro_text": "The price of Bond A is 1"
+  },
+  "351": {
+    "page_number": 94,
+    "answer": "A",
+    "intro_text": "Let K be the amount that Bank B paid.  Equating the amount borrowed (the 16 payments discounted at 7%) to the actual payments received (using the 6% yield rate) gives the equation"
+  },
+  "352": {
+    "page_number": 94,
+    "answer": "A",
+    "intro_text": "( )"
+  },
+  "353": {
+    "page_number": 94,
+    "answer": "E",
+    "intro_text": "The price is P = 950.  The modified duration is '"
+  },
+  "354": {
+    "page_number": 95,
+    "answer": "B",
+    "intro_text": "Because Bond A sold for its fact amount, the yield rate is the coupon rate of 6% per year. The present values of the three bonds are:"
+  },
+  "355": {
+    "page_number": 95,
+    "answer": "A",
+    "intro_text": "The present value of the two payments is: 5"
+  },
+  "356": {
+    "page_number": 95,
+    "answer": "C",
+    "intro_text": "( )"
+  },
+  "357": {
+    "page_number": 96,
+    "answer": "D",
+    "intro_text": "The quarterly interest rate is 1/4"
+  },
+  "358": {
+    "page_number": 96,
+    "answer": "E",
+    "intro_text": "365 20 1"
+  },
+  "359": {
+    "page_number": 96,
+    "answer": "C",
+    "intro_text": "First calculate the three-year interest rate. 3"
+  },
+  "360": {
+    "page_number": 96,
+    "answer": "D",
+    "intro_text": "The present value of the first year’s payments is: 1"
+  },
+  "361": {
+    "page_number": 96,
+    "answer": "D",
+    "intro_text": "( )"
+  },
+  "362": {
+    "page_number": 97,
+    "answer": "B",
+    "intro_text": "10 0.04"
+  },
+  "363": {
+    "page_number": 97,
+    "answer": "E",
+    "intro_text": "5 0.04 5 0.04"
+  },
+  "364": {
+    "page_number": 97,
+    "answer": "A",
+    "intro_text": "The total amount paid is n.  The initial loan amount is n i"
+  },
+  "365": {
+    "page_number": 97,
+    "answer": "C",
+    "intro_text": "( )"
+  },
+  "366": {
+    "page_number": 97,
+    "answer": "A",
+    "intro_text": "( )"
+  },
+  "367": {
+    "page_number": 98,
+    "answer": "B",
+    "intro_text": "12 240 0.006434"
+  },
+  "368": {
+    "page_number": 98,
+    "answer": "C",
+    "intro_text": "20 0.015 4"
+  },
+  "369": {
+    "page_number": 98,
+    "answer": "A",
+    "intro_text": "12 180 0.0073"
+  },
+  "370": {
+    "page_number": 99,
+    "answer": "A",
+    "intro_text": "Define i′  as the quarterly effective interest rate for the loan Solve for i′"
+  },
+  "371": {
+    "page_number": 99,
+    "answer": "B",
+    "intro_text": "All prices imply an interest rate of 6% indicating that the yield rate does not change with duration, that is. the yield curve is flat."
+  },
+  "372": {
+    "page_number": 99,
+    "answer": "E",
+    "intro_text": "Macaulay duration at an interest rate of 5% is ("
+  },
+  "373": {
+    "page_number": 99,
+    "answer": "C",
+    "intro_text": "12 24 0.0075"
+  },
+  "374": {
+    "page_number": 99,
+    "answer": "E",
+    "intro_text": "120 0.0075 0.0075"
+  },
+  "375": {
+    "page_number": 100,
+    "answer": "B",
+    "intro_text": "1 6"
+  },
+  "376": {
+    "page_number": 100,
+    "answer": "D",
+    "intro_text": "( )10"
+  },
+  "377": {
+    "page_number": 100,
+    "answer": "E",
+    "intro_text": "0.01 200 0.0201"
+  },
+  "378": {
+    "page_number": 100,
+    "answer": "C",
+    "intro_text": "Let r be the coupon rate. 20"
+  },
+  "379": {
+    "page_number": 101,
+    "answer": "C",
+    "intro_text": "Since the annual effective discount rate is 3.2%, the present value of an amount is calculated by multiplying it by a discounting factor of (1 0.032)"
+  },
+  "380": {
+    "page_number": 101,
+    "answer": "E",
+    "intro_text": "0.045 3400"
+  },
+  "381": {
+    "page_number": 101,
+    "answer": "C",
+    "intro_text": "The minimum yield will occur at the earliest redemption date since the bond is brought at a premium.  Therefore n = 18."
+  },
+  "382": {
+    "page_number": 102,
+    "answer": "A",
+    "intro_text": "Conditions for full immunization of a single liability cash flow are:"
+  },
+  "383": {
+    "page_number": 102,
+    "answer": "B",
+    "intro_text": "Let i represent the effective market annual yield rate and 1"
+  },
+  "384": {
+    "page_number": 102,
+    "answer": "A",
+    "intro_text": "Using the basic formula: ("
+  },
+  "385": {
+    "page_number": 103,
+    "answer": "E",
+    "intro_text": "12 12 0.02"
+  },
+  "386": {
+    "page_number": 103,
+    "answer": "C",
+    "intro_text": "First, note that the monthly rate of interest is 0.072/12 = 0.006. Also, the first payment occurs 60 months out, and the last payment occurs 240 months out."
+  },
+  "387": {
+    "page_number": 103,
+    "answer": "C",
+    "intro_text": "The price of the geometric perpetuity-due, as a function of the annual effective interest rate i, is given by"
+  },
+  "388": {
+    "page_number": 104,
+    "answer": "E",
+    "intro_text": "Since the annual nominal interest rate is 6%, compounded monthly, the monthly effective interest rate is 6%"
+  },
+  "389": {
+    "page_number": 104,
+    "answer": "C",
+    "intro_text": "Since the Macaulay duration of a set of cash flows is a weighted sum of the payment times, deferring by six years must add exactly 6 to this duration. The Macaulay duration is (1 + j) times"
+  },
+  "390": {
+    "page_number": 104,
+    "answer": "B",
+    "intro_text": "For all 3 investments, convexity is ( ) /"
+  },
+  "391": {
+    "page_number": 105,
+    "answer": "E",
+    "intro_text": "( )"
+  },
+  "392": {
+    "page_number": 105,
+    "answer": "A",
+    "intro_text": "( )"
+  },
+  "393": {
+    "page_number": 105,
+    "answer": "C",
+    "intro_text": "5 5 0.03"
+  },
+  "394": {
+    "page_number": 105,
+    "answer": "D",
+    "intro_text": "5 4"
+  },
+  "395": {
+    "page_number": 106,
+    "answer": "D",
+    "intro_text": "( )"
+  },
+  "396": {
+    "page_number": 106,
+    "answer": "E",
+    "intro_text": "If j is the semi-annual effective interest rate, then"
+  },
+  "397": {
+    "page_number": 106,
+    "answer": "E",
+    "intro_text": "First determine the present value of the four payments within a year.  Then determine the present value of ten of these."
+  },
+  "398": {
+    "page_number": 106,
+    "answer": "D",
+    "intro_text": "( )"
+  },
+  "399": {
+    "page_number": 106,
+    "answer": "A",
+    "intro_text": "Accumulate values to time ten. ("
+  },
+  "400": {
+    "page_number": 107,
+    "answer": "D",
+    "intro_text": "Repayment = 120 .08/12"
+  },
+  "401": {
+    "page_number": 107,
+    "answer": "A",
+    "intro_text": "1 1"
+  },
+  "402": {
+    "page_number": 107,
+    "answer": "B",
+    "intro_text": "( )("
+  },
+  "403": {
+    "page_number": 107,
+    "answer": "B",
+    "intro_text": "0.09 4 0.0225"
+  },
+  "404": {
+    "page_number": 107,
+    "answer": "D",
+    "intro_text": "2 3"
+  },
+  "405": {
+    "page_number": 108,
+    "answer": "A",
+    "intro_text": "Let P be the initial payment. Then, 60"
+  },
+  "406": {
+    "page_number": 108,
+    "answer": "B",
+    "intro_text": "1.09 1"
+  },
+  "407": {
+    "page_number": 108,
+    "answer": "E",
+    "intro_text": "At the end of 5 years and 60 payments, the borrower still owes 150,000. It will take n monthly payments of 1000 to retire the loan where"
+  },
+  "408": {
+    "page_number": 108,
+    "answer": "C",
+    "intro_text": "Suppose level payment is 500. 2"
+  },
+  "409": {
+    "page_number": 108,
+    "answer": "B",
+    "intro_text": "( )10 0.06"
+  },
+  "410": {
+    "page_number": 109,
+    "answer": "A",
+    "intro_text": "The percentage by which the balance accumulates each year is the effective interest rate."
+  },
+  "411": {
+    "page_number": 109,
+    "answer": "E",
+    "intro_text": "We have 2"
+  },
+  "412": {
+    "page_number": 109,
+    "answer": "A",
+    "intro_text": "The Macaulay duration is 2"
+  },
+  "413": {
+    "page_number": 109,
+    "answer": "E",
+    "intro_text": "The effective rate per month is 0025"
+  },
+  "414": {
+    "page_number": 109,
+    "answer": "C",
+    "intro_text": "The total interest payment of 400 in the 1-year period is 5% of the new balance of 8000, so by definition, 5% is the effective discount rate."
+  },
+  "415": {
+    "page_number": 109,
+    "answer": "A",
+    "intro_text": "The effective monthly interest rate is 0.072"
+  },
+  "416": {
+    "page_number": 110,
+    "answer": "C",
+    "intro_text": "Let i = yield rate. Then, for bond A: 800"
+  },
+  "417": {
+    "page_number": 110,
+    "answer": "D",
+    "intro_text": "No computations are needed.  Since the desired yield rate of 6% is higher than the coupon rate of 5%, the investor is at the greatest disadvantage when the bond is called at maturity."
+  },
+  "418": {
+    "page_number": 110,
+    "answer": "A",
+    "intro_text": "The amount charged to the card was 1500 immediately.  The annual fees were 20 after 1 year and 20 after 2 years."
+  },
+  "419": {
+    "page_number": 110,
+    "answer": "D",
+    "intro_text": "Let j be the quarterly interest rate. Then, 40"
+  },
+  "420": {
+    "page_number": 111,
+    "answer": "D",
+    "intro_text": "5 1.03"
+  },
+  "421": {
+    "page_number": 111,
+    "answer": "E",
+    "intro_text": "The definition of “purchased at premium” is P > C; purchase price greater than redemption value."
+  },
+  "422": {
+    "page_number": 111,
+    "answer": "A",
+    "intro_text": "180 360 0.0054167"
+  },
+  "423": {
+    "page_number": 111,
+    "answer": "A",
+    "intro_text": "The Macaulay duration of bond B is 10"
+  },
+  "424": {
+    "page_number": 111,
+    "answer": "D",
+    "intro_text": "1 1500 0.087"
+  },
+  "425": {
+    "page_number": 112,
+    "answer": "C",
+    "intro_text": "2 4"
+  },
+  "426": {
+    "page_number": 112,
+    "answer": "B",
+    "intro_text": "Matching the asset and liability present values and durations, we have the system of equations 0.5"
+  },
+  "427": {
+    "page_number": 112,
+    "answer": "D",
+    "intro_text": "Each coupon payment is 7000(0.06) 420"
+  },
+  "428": {
+    "page_number": 112,
+    "answer": "A",
+    "intro_text": "The PV of perpetuity X is 2"
+  },
+  "429": {
+    "page_number": 113,
+    "answer": "A",
+    "intro_text": "10 10 0.10"
+  },
+  "430": {
+    "page_number": 113,
+    "answer": "B",
+    "intro_text": "Let i = yield rate. Let n be the term in years of the two bonds."
+  },
+  "431": {
+    "page_number": null,
+    "answer": null,
+    "intro_text": "1000(0.03) 30"
+  },
+  "432": {
+    "page_number": 113,
+    "answer": "E",
+    "intro_text": "(A) It does need to be satisfied (B) Requires more rebalancing"
+  },
+  "433": {
+    "page_number": 114,
+    "answer": "A",
+    "intro_text": "OB, after year 5"
+  },
+  "434": {
+    "page_number": 114,
+    "answer": "E",
+    "intro_text": "First, use bond A to determine the interest rate.  Because the equation for the interest rate cannot be solved algebraically, use a financial calculator to get i/2, which yields i/2 = 0.035, or"
+  },
+  "435": {
+    "page_number": 114,
+    "answer": "A",
+    "intro_text": "40 40 0.025"
+  },
+  "436": {
+    "page_number": 114,
+    "answer": "B",
+    "intro_text": "First, calculate the initial payment P as follows: 2"
+  },
+  "437": {
+    "page_number": 115,
+    "answer": "D",
+    "intro_text": "The accumulation of discount at time 8 is 491.51, which is equal to 50 8 i s"
+  },
+  "438": {
+    "page_number": 115,
+    "answer": "E",
+    "intro_text": "(60 15)/365 45/365"
+  },
+  "439": {
+    "page_number": 115,
+    "answer": "D",
+    "intro_text": "( )"
+  },
+  "440": {
+    "page_number": 115,
+    "answer": "C",
+    "intro_text": "The present value of the perpetuity-due, at annual effective interest rate i, is given by 2"
+  },
+  "441": {
+    "page_number": 116,
+    "answer": "E",
+    "intro_text": "Let  denote the discount factor applicable to a period of one month and let X be the constant periodic amount received by both charities.  For Charity A, 198,000"
+  },
+  "442": {
+    "page_number": 116,
+    "answer": "C",
+    "intro_text": "5 5"
+  },
+  "443": {
+    "page_number": 116,
+    "answer": "C",
+    "intro_text": "Let X be the monthly deposit of year 1.  Then determine the present value of the first year’s monthly payments and then use geometric formula to accumulate to year 10."
+  },
+  "444": {
+    "page_number": 117,
+    "answer": "D",
+    "intro_text": "The yield rate is equal to the coupon rate for Bond Z, so the price of Bond Z is  1000.  This implies the price of Bond Y is 1,169.30."
+  },
+  "445": {
+    "page_number": 117,
+    "answer": "E",
+    "intro_text": "Use Bond 1 to find information about 0"
+  },
+  "446": {
+    "page_number": 117,
+    "answer": "D",
+    "intro_text": "There are two blocks of 42 payments (paid every two months) increasing in an arithmetic progression.  The value of each of these blocks two months before the first payment is:"
+  },
+  "447": {
+    "page_number": 118,
+    "answer": "A",
+    "intro_text": "First, the size of the level payment does not have an impact on the duration. So, for the perpetuity-immediate:"
+  },
+  "448": {
+    "page_number": 118,
+    "answer": "D",
+    "intro_text": "Using the financial calculator to solve for the yield rate with 15,"
+  },
+  "449": {
+    "page_number": 118,
+    "answer": "C",
+    "intro_text": "Just after the 20th coupon is paid, there are still 40 coupon periods left, and the book value of the bond is B20 = PV(remaining cash flows) ="
+  },
+  "450": {
+    "page_number": 119,
+    "answer": "B",
+    "intro_text": "The PV and duration of the assets must match the liabilities, 24,000 + 1,000 = 25,000 and [24,000(7.5) + 1,000(20)]/25,000 = 8. The convexity of the assets must be greater than"
+  },
+  "451": {
+    "page_number": 119,
+    "answer": "E",
+    "intro_text": "The quarterly rate of interest is 0.05/4 = 0.0125. There are 20 deposits of 1,000, and 60deposits that are geometrically increasing above 1,000."
+  },
+  "452": {
+    "page_number": null,
+    "answer": null,
+    "intro_text": "Because the outlays all occur before the inflows, there is a unique yield rate. At a 50% interest rate, the equation is"
+  },
+  "453": {
+    "page_number": 120,
+    "answer": "D",
+    "intro_text": "The accumulation of discount of at time 8 is 491.51, which is equal to 8"
+  },
+  "454": {
+    "page_number": 120,
+    "answer": "E",
+    "intro_text": "The amounts for accumulation of the discount in the annual coupon payments (amounts of increase in book value) form a geometric progression with common ratio (1"
+  },
+  "455": {
+    "page_number": 121,
+    "answer": "E",
+    "intro_text": "First note that the yield rate is equal to the coupon rate for Bond Z, so the price of Bond Z is"
+  },
+  "1000": {
+    "page_number": null,
+    "answer": null,
+    "intro_text": "2 1.015"
+  },
+  "456": {
+    "page_number": 121,
+    "answer": "E",
+    "intro_text": "Assume the face amount is 1.  The price of the bond is 40"
+  },
+  "457": {
+    "page_number": 121,
+    "answer": "B",
+    "intro_text": "Let x be the amount of a coupon payment. The book value right after the nth coupon is 0.02"
+  },
+  "458": {
+    "page_number": 122,
+    "answer": "B",
+    "intro_text": "2 3"
+  },
+  "459": {
+    "page_number": 122,
+    "answer": "A",
+    "intro_text": "10,000 (1.07) 152,857.14"
+  },
+  "460": {
+    "page_number": 123,
+    "answer": "B",
+    "intro_text": "The present value of the geometric payment perpetuity-immediate, at annual effective interest rate i and with payment growth rate"
+  },
+  "461": {
+    "page_number": 124,
+    "answer": "D",
+    "intro_text": "The present value of the geometric payment perpetuity-due, at annual effective interest rate i and with payment growth rate"
+  },
+  "462": {
+    "page_number": 124,
+    "answer": "D",
+    "intro_text": "The outstanding loan balance here can be calculated using either the prospective approach or the retrospective approach, although the retrospective approach is easier, since it does not require the"
+  }
+}
