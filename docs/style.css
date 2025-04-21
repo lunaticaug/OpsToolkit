@@ -1,0 +1,14 @@
+/* docs/style.css */
+
+/* 헤딩 컬러 */
+.markdown section h1 { color: #AA88CC !important; }
+.markdown section h2 { color: #79A7FF !important; }
+.markdown section h3 { color: #55CCCC !important; }
+.markdown section h4 { color: #99FF99 !important; }
+.markdown section h5,
+.markdown section h6 { color: #33AA33 !important; }
+
+/* 볼드·이탤릭·언더라인 */
+.markdown section strong { color: #FFE600 !important; font-weight: bold; }
+.markdown section em     { font-style: italic !important; }
+.markdown section u      { text-decoration: underline !important; }
