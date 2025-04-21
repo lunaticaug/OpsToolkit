@@ -1,9 +1,7 @@
   - Python
     - 250404 SOA FM
       - [Prompt](/Python/250404%20SOA%20FM/Prompt.md)
-  - prompts
-    - 
-      - [14_Mon](/prompts/202504/14_Mon.md)
-      - [14_Mon_Private](/prompts/202504/14_Mon_Private.md)
-      - [index](/prompts/202504/index.md)
-    - [index](/prompts/index.md)
+  - [prompts](/prompts/README.md)
+    - [2025_04](/prompts/2025_04/README.md)
+      - [14_Mon](/prompts/2025_04/14_Mon.md)
+      - [14_Mon_Private](/prompts/2025_04/14_Mon_Private.md)
