@@ -12,20 +12,20 @@
 <body>
   <div id="app"></div>
 
-  <!-- 1) Docsify core (must load first) -->
+  <!-- 1) Docsify core -->
   <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>
-  <!-- 2) Auto‑Sidebar plugin (load from public CDN) -->
+  <!-- 2) Auto‑Sidebar plugin -->
   <script src="https://cdn.jsdelivr.net/npm/docsify-auto-sidebar/dist/docsify-auto-sidebar.min.js"></script>
 
   <script>
     window.$docsify = {
       el: '#app',
-      docsDir: 'docs',         // Markdown 파일들이 있는 폴더
-      homepage: 'README.md',   // docs/README.md 를 홈으로 사용
-      loadSidebar: false,      // 정적 _sidebar.md 사용 안 함
-      autoSidebar: true,       // 폴더 구조 기반 자동 생성
+      docsDir: 'docs',
+      homepage: 'README.md',
+      loadSidebar: false,
+      autoSidebar: true,
       plugins: [
-        window.autoSidebar()   // 플러그인 팩토리 호출
+        window.autoSidebar()
       ]
     };
   </script>
