@@ -1,4 +1,4 @@
-  - Python
+  - [Python](Python/README.md)
     - 250404 SOA FM
       - [Prompt](Python/250404%20SOA%20FM/Prompt.md)
   - [prompts](prompts/README.md)
