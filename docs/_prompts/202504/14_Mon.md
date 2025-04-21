@@ -1,6 +1,7 @@
 ---
 title: "2025-04-14 작업"
 layout: default
+exclude: true
 ---
 
 # GPTs 기획 세션
