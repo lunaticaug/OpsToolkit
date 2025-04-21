@@ -1,3 +1,9 @@
+---
+title: "원하는 제목"
+layout: default
+---
+
+
 # GPTs and etcs
         각종 생산성 툴 제작 기록
         ✔️ CustomGPTs: 프롬프트, 작업스키마
