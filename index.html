@@ -4,29 +4,25 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>OpsToolkit Docs</title>
-  <!-- Docsify theme -->
+  <!-- Docsify 기본 테마 -->
   <link rel="stylesheet" href="https://unpkg.com/docsify/lib/themes/vue.css" />
-  <!-- Your custom markdown CSS -->
+  <!-- (선택) 커스텀 마크다운 CSS -->
   <link rel="stylesheet" href="docs/style.css" />
 </head>
 <body>
   <div id="app"></div>
 
-  <!-- 1) Docsify core -->
+  <!-- 1) Docsify 코어 로드 -->
   <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>
-  <!-- 2) Auto‑Sidebar plugin -->
-  <script src="https://cdn.jsdelivr.net/npm/docsify-auto-sidebar/dist/docsify-auto-sidebar.min.js"></script>
 
+  <!-- 2) 정적 사이드바 모드 설정 -->
   <script>
     window.$docsify = {
       el: '#app',
-      docsDir: 'docs',
-      homepage: 'README.md',
-      loadSidebar: false,
-      autoSidebar: true,
-      plugins: [
-        window.autoSidebar()
-      ]
+      docsDir: 'docs',       // 모든 MD 파일이 있는 폴더
+      homepage: 'README.md', // docs/README.md 를 홈으로 사용
+      loadSidebar: true,     // docs/_sidebar.md 읽기
+      autoSidebar: false     // 동적 플러그인 비활성화
     };
   </script>
 </body>
