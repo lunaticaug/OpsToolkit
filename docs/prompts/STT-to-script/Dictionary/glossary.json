@@ -1,0 +1,16 @@
+{
+    "terms": [
+      {
+        "id": "회계/재무회계",
+        "category": "회계",
+        "correct": "재무회계",
+        "english": "financial accounting",
+        "variants": ["제무회계", "제무에게"]
+      }
+    ],
+    "index": {
+      "제무회계": "회계/재무회계",
+      "제무에게": "회계/재무회계"
+    }
+  }
+  
