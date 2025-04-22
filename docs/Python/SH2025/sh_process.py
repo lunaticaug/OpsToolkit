@@ -8,7 +8,8 @@ import pandas as pd
 from pathlib import Path
 
 ENCODING = "utf-8-sig"
-FILES    = [
+FILES = [
+    "2025신규공급.CSV",
     "2025재공급.CSV",
     "2025쉐어예비.CSV",
 ]
