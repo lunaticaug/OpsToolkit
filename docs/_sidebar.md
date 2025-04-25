@@ -1,8 +1,0 @@
-- [Home](README.md)
-  - [Python](Python/README.md)
-    - 250404 SOA FM
-      - [Prompt](Python/250404%20SOA%20FM/Prompt.md)
-  - [prompts](prompts/README.md)
-    - [2025_04](prompts/2025_04/README.md)
-      - [14_Mon](prompts/2025_04/14_Mon.md)
-      - [14_Mon_Private](prompts/2025_04/14_Mon_Private.md)
