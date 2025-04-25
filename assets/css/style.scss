@@ -2,12 +2,21 @@
 ---
 @import "minima";
 
-/* VSCode 헤딩 컬러 & 강조 커스텀 */
-h1 { color: #AA88CC; }
-h2 { color: #79A7FF; }
-h3 { color: #55CCCC; }
-h4 { color: #99FF99; }
-h5, h6 { color: #33AA33; }
-strong { color: #FFE600 !important; font-weight: bold; }
-em     { font-style: italic; }
-u      { text-decoration: underline; }
+/* VSCode-inspired heading colors */
+h1 { color: #AA88CC !important; }
+h2 { color: #79A7FF !important; }
+h3 { color: #55CCCC !important; }
+h4 { color: #99FF99 !important; }
+h5, h6 { color: #33AA33 !important; }
+
+/* Bold, italic, underline styling */
+strong, b {
+  color: #FFE600 !important;
+  font-weight: bold;
+}
+em {
+  font-style: italic !important;
+}
+u {
+  text-decoration: underline !important;
+}
