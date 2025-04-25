@@ -1,59 +1,79 @@
 #!/usr/bin/env python3
-"""새 JSON 조각(snippet.json)을 glossary.json에 병합한다."""
-from __future__ import annotations
-import json, sys, pathlib
-from collections import defaultdict
+import json
+from pathlib import Path
 
-# ---------- 설정 ----------
-BASE = pathlib.Path(__file__).parent
-GLOSSARY = BASE / "glossary.json"
-SNIPPET  = BASE / "snippet.json"
-# --------------------------
+# Paths to glossary and snippet files
+GLOSSARY = Path(__file__).parent / "glossary.json"
+SNIPPET  = Path(__file__).parent / "snippet.json"
 
-def load_json(path):            # 파일이 없으면 빈 구조 생성
+def load_json(path: Path) -> dict:
+    """Load JSON from path or return default structure."""
     if not path.exists():
         return {"terms": [], "index": {}}
-    with path.open(encoding="utf-8") as f:
+    with path.open("r", encoding="utf-8") as f:
         return json.load(f)
 
-def build_index(terms):
+def save_json(path: Path, data: dict) -> None:
+    """Save JSON data to path with indentation."""
+    with path.open("w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+def build_index(terms: list) -> dict:
+    """Rebuild the index from the list of term entries."""
     idx = {}
-    for t in terms:
-        term_id = f"{t['category']}/{t['correct']}"
-        for v in [t["correct"], *t["variants"]]:
-            idx[v] = term_id
+    for term in terms:
+        term_id = f"{term['category']}/{term['correct']}"
+        # map only variants (wrong spellings) to the term ID
+        for variant in term.get("variants", []):
+            idx[variant] = term_id
     return idx
 
-def merge_terms(terms, new):
-    key = (new["category"], new["correct"])
-    for t in terms:
-        if (t["category"], t["correct"]) == key:
-            # 중복 variant 제거 후 병합
-            t["variants"] = sorted(set(t["variants"] + new["variants"]))
+def merge_terms(existing_terms: list, new_entry: dict) -> None:
+    """
+    Merge a single term entry into existing_terms.
+    If an entry with same id exists, update english/variants; otherwise append.
+    """
+    for term in existing_terms:
+        if term["id"] == new_entry["id"]:
+            if "english" in new_entry and new_entry["english"] != term.get("english"):
+                term["english"] = new_entry["english"]
+            old_vars = set(term.get("variants", []))
+            for v in new_entry.get("variants", []):
+                if v not in old_vars:
+                    term.setdefault("variants", []).append(v)
             return
-    terms.append(new)
+    existing_terms.append(new_entry)
 
-def main():
-    data     = load_json(GLOSSARY)
-    snippet  = load_json(SNIPPET)
+def delete_term(existing_terms: list, deleted_id: str) -> None:
+    """Remove term entries matching the deleted_id (format 'category/correct')."""
+    cat, corr = deleted_id.split("/", 1)
+    existing_terms[:] = [
+        term for term in existing_terms
+        if not (term["category"] == cat and term["correct"] == corr)
+    ]
 
-    if "terms_entry" in snippet:       # 추가/수정
-        merge_terms(data["terms"], snippet["terms_entry"])
-    if "deleted_terms_id" in snippet:  # 삭제
-        cat, corr = snippet["deleted_terms_id"].split("/", 1)
-        data["terms"] = [t for t in data["terms"]
-                         if not (t["category"] == cat and
-                                 t["correct"] == corr)]
+def main() -> None:
+    data    = load_json(GLOSSARY)
+    snippet = load_json(SNIPPET)
+    data.setdefault("terms", [])
 
-    # 정렬
-    data["terms"].sort(key=lambda x: (x["category"], x["correct"]))
+    # Handle array or single-object snippet
+    snips = snippet if isinstance(snippet, list) else [snippet]
 
-    # index 재생성
+    for sn in snips:
+        if "terms_entry" in sn:
+            merge_terms(data["terms"], sn["terms_entry"])
+        elif "terms" in sn:
+            for entry in sn["terms"]:
+                merge_terms(data["terms"], entry)
+        if "deleted_terms_id" in sn:
+            delete_term(data["terms"], sn["deleted_terms_id"])
+
+    # Sort and rebuild
+    data["terms"].sort(key=lambda t: (t["category"], t["correct"]))
     data["index"] = build_index(data["terms"])
-
-    with GLOSSARY.open("w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-    print("✅ glossary.json 갱신 완료")
+    save_json(GLOSSARY, data)
+    print(f"✔ Updated glossary.json with {len(data['terms'])} terms")
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()

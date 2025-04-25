@@ -1,16 +1,58 @@
 {
-    "terms": [
-      {
-        "id": "회계/재무회계",
-        "category": "회계",
-        "correct": "재무회계",
-        "english": "financial accounting",
-        "variants": ["제무회계", "제무에게"]
-      }
-    ],
-    "index": {
-      "제무회계": "회계/재무회계",
-      "제무에게": "회계/재무회계"
+  "terms": [
+    {
+      "id": "세법/손금",
+      "category": "세법",
+      "correct": "손금",
+      "english": "deductible expense",
+      "variants": [
+        "송금"
+      ]
+    },
+    {
+      "id": "세법/손금불산입",
+      "category": "세법",
+      "correct": "손금불산입",
+      "english": "non-deductible expense",
+      "variants": [
+        "송금불산입"
+      ]
+    },
+    {
+      "id": "세법/익금",
+      "category": "세법",
+      "correct": "익금",
+      "english": "taxable income",
+      "variants": [
+        "입금"
+      ]
+    },
+    {
+      "id": "세법/익금산입",
+      "category": "세법",
+      "correct": "익금산입",
+      "english": "inclusion in taxable income",
+      "variants": [
+        "입금산입"
+      ]
+    },
+    {
+      "id": "회계/재무회계",
+      "category": "회계",
+      "correct": "재무회계",
+      "english": "financial accounting",
+      "variants": [
+        "제무회계",
+        "제무에게"
+      ]
     }
+  ],
+  "index": {
+    "송금": "세법/손금",
+    "송금불산입": "세법/손금불산입",
+    "입금": "세법/익금",
+    "입금산입": "세법/익금산입",
+    "제무회계": "회계/재무회계",
+    "제무에게": "회계/재무회계"
   }
-  
+}

@@ -1,1 +1,50 @@
-{}
+[
+  {
+    "terms_entry": {
+      "id": "세법/익금",
+      "category": "세법",
+      "correct": "익금",
+      "english": "taxable income",
+      "variants": ["입금"]
+    },
+    "index_entry": {
+      "입금": "세법/익금"
+    }
+  },
+  {
+    "terms_entry": {
+      "id": "세법/손금",
+      "category": "세법",
+      "correct": "손금",
+      "english": "deductible expense",
+      "variants": ["송금"]
+    },
+    "index_entry": {
+      "송금": "세법/손금"
+    }
+  },
+  {
+    "terms_entry": {
+      "id": "세법/익금산입",
+      "category": "세법",
+      "correct": "익금산입",
+      "english": "inclusion in taxable income",
+      "variants": ["입금산입"]
+    },
+    "index_entry": {
+      "입금산입": "세법/익금산입"
+    }
+  },
+  {
+    "terms_entry": {
+      "id": "세법/손금불산입",
+      "category": "세법",
+      "correct": "손금불산입",
+      "english": "non-deductible expense",
+      "variants": ["송금불산입"]
+    },
+    "index_entry": {
+      "송금불산입": "세법/손금불산입"
+    }
+  }
+]
