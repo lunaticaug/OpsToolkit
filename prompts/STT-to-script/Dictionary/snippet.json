@@ -1,50 +1,31 @@
-[
-  {
-    "terms_entry": {
-      "id": "세법/익금",
-      "category": "세법",
-      "correct": "익금",
-      "english": "taxable income",
-      "variants": ["입금"]
+{
+  "terms_entry": [
+    
+    {
+      "id": "일반/저의",
+      "category": "일반",
+      "correct": "저의",
+      "english": "my",
+      "variants": ["저희"]
     },
-    "index_entry": {
-      "입금": "세법/익금"
-    }
-  },
-  {
-    "terms_entry": {
-      "id": "세법/손금",
-      "category": "세법",
-      "correct": "손금",
-      "english": "deductible expense",
-      "variants": ["송금"]
+    {
+      "id": "AI기술/RAG로",
+      "category": "AI기술",
+      "correct": "RAG로",
+      "english": "via RAG",
+      "variants": ["락으로"]
     },
-    "index_entry": {
-      "송금": "세법/손금"
+    {
+      "id": "일반/정규화",
+      "category": "일반",
+      "correct": "정규화",
+      "english": "normalization",
+      "variants": ["정교화"]
     }
-  },
-  {
-    "terms_entry": {
-      "id": "세법/익금산입",
-      "category": "세법",
-      "correct": "익금산입",
-      "english": "inclusion in taxable income",
-      "variants": ["입금산입"]
-    },
-    "index_entry": {
-      "입금산입": "세법/익금산입"
-    }
-  },
-  {
-    "terms_entry": {
-      "id": "세법/손금불산입",
-      "category": "세법",
-      "correct": "손금불산입",
-      "english": "non-deductible expense",
-      "variants": ["송금불산입"]
-    },
-    "index_entry": {
-      "송금불산입": "세법/손금불산입"
-    }
+  ],
+  "index_entry": {
+    "저희": "일반/저의",
+    "락으로": "AI기술/RAG로",
+    "정교화": "일반/정규화"
   }
-]
+}
