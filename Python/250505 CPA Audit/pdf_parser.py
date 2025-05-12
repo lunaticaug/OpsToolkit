@@ -166,7 +166,7 @@ def process_single_page_details(page, layout_defaults, pdf_path, page_num):
         tables = camelot.read_pdf(pdf_path, pages=str(page_num), flavor='stream')
         for idx, tbl in enumerate(tables, 1):
             eid = generate_unique_id(f"T{page_num}_{idx}")
-            x1,y1,x2,y2 = tbl.bbox  # (x1 top-left, y1 top-left, x2 bottom-right, y2 bottom-right)
+            x1,y1,x2,y2 = tbl._bbox  # use private _bbox attribute
             # PyMuPDF 좌하단 원점 변환
             fitz_bbox = [x1, ph - y2, x2, ph - y1]
             col_idx = 0 if ((fitz_bbox[0]+fitz_bbox[2])/2) < split_x else 1
@@ -296,7 +296,7 @@ if __name__ == "__main__":
         logger.error(f"목록 파일이 없습니다: {list_file}")
         sys.exit(1)
 
-    with open(list_file, 'r', encoding='utf-8') as f:
+    with open(list_file, 'r', encoding='cp949', errors='replace') as f:
         pdfs_to_process = [ln.strip() for ln in f if ln.strip() and not ln.startswith('#')]
 
     output_root = os.path.join(base_dir, "extracted_json_results")
