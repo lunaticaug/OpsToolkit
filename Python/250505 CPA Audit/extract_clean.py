@@ -11,10 +11,7 @@ from datetime import datetime
 import pdfplumber
 import fitz               # PyMuPDF
 import camelot           # camelot-py[cv]
-import pytesseract
 from PIL import Image
-import numpy as np
-import cv2
 
 # --- 설정 --------------------------------------------------
 
@@ -26,51 +23,15 @@ COLUMN_RATIO  = 0.5   # 2단 분할 비율
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
 logger = logging.getLogger(__name__)
 
-# --- 헬퍼: 이미지 전처리 + OCR --------------------------------
 
-def ocr_image(pil_img):
-    arr  = np.array(pil_img.convert("RGB"))
-    gray = cv2.cvtColor(arr, cv2.COLOR_RGB2GRAY)
-    blur = cv2.medianBlur(gray, 3)
-    proc = Image.fromarray(blur)
-    data = pytesseract.image_to_data(
-        proc, lang=OCR_LANG,
-        config=f'--oem 3 --psm {PSM_OCR}',
-        output_type=pytesseract.Output.DICT
-    )
-    words, confs = [], []
-    for i, txt in enumerate(data['text']):
-        try:
-            conf = float(data['conf'][i])
-        except:
-            continue
-        if data['level'][i] == 5 and txt.strip() and conf >= 0:
-            words.append(txt.strip())
-            confs.append(conf)
-    text = " ".join(words)
-    conf = (sum(confs)/len(confs)/100) if confs else 0.0
-    return text, round(conf, 2)
-
-# --- 본문 텍스트 추출 (pdfplumber or OCR) -------------------
+# --- 본문 텍스트 추출 (pdfplumber only) -------------------
 
 def extract_columns(page):
-    # 1) 텍스트 레이어가 있으면 pdfplumber로 바로 추출
-    txt = page.extract_text(layout=True)
-    if txt:
-        w, h = page.width, page.height
-        left  = page.within_bbox((0, 0, w*COLUMN_RATIO, h)).extract_text() or ""
-        right = page.within_bbox((w*COLUMN_RATIO, 0, w, h)).extract_text() or ""
-        return left, right, True
-
-    # 2) 없으면 스캔본 => OCR
-    img = page.to_image(resolution=OCR_DPI).original
-    w_px, h_px = img.size
-    split = int(w_px * COLUMN_RATIO)
-    l_img = img.crop((0, 0, split, h_px))
-    r_img = img.crop((split, 0, w_px, h_px))
-    lt, lc = ocr_image(l_img)
-    rt, rc = ocr_image(r_img)
-    return lt, rt, False
+    # Always use the PDF's digital text layer
+    w, h = page.width, page.height
+    left = page.within_bbox((0, 0, w * COLUMN_RATIO, h)).extract_text() or ""
+    right = page.within_bbox((w * COLUMN_RATIO, 0, w, h)).extract_text() or ""
+    return left, right, True
 
 # --- 테이블 추출 (Camelot stream) ----------------------------
 
