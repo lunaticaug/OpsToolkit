@@ -11,6 +11,8 @@ import logging
 from datetime import datetime, timezone
 from PIL import Image
 import pytesseract
+import cv2
+import numpy as np
 
 # 환경 확인
 print("Using Python:", sys.executable)
@@ -44,7 +46,7 @@ logger = logging.getLogger(__name__)
 # --- 0. 설정 불러오기 (config.json 대신 기본값) ---
 # 이 예제에서는 CONFIG 없이 기본 상수를 사용하도록 간소화합니다.
 
-OCR_LANG = 'kor+eng'
+OCR_LANG = 'kor'
 OCR_DPI = 300
 HEADER_HEIGHT_PT = 60.0
 FOOTER_HEIGHT_PT = 40.0
@@ -59,12 +61,23 @@ def get_current_timestamp_iso():
 def generate_unique_id(prefix=""):
     return f"{prefix.upper()}_{uuid.uuid4().hex[:6].upper()}"
 
-def ocr_image_region(pil_img, lang=OCR_LANG, psm=3):
+def ocr_image_region(pil_img, lang=OCR_LANG, psm=6):
     """PIL 이미지 영역 OCR + confidence 반환"""
+    # --- pre-process for clean horizontal Korean text ---
+    # convert PIL to OpenCV image
+    open_cv_image = np.array(pil_img.convert('RGB'))[:, :, ::-1]
+    # grayscale
+    gray = cv2.cvtColor(open_cv_image, cv2.COLOR_BGR2GRAY)
+    # Otsu threshold
+    _, binary = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)
+    # convert back to PIL
+    pil_img = Image.fromarray(binary)
+
     if pil_img.width < 5 or pil_img.height < 5:
         return "", 0.0
     try:
-        config = f'--oem 3 --psm {psm}'
+        whitelist = '가-힣A-Za-z0-9\\s\\./\\(\\)\\-'
+        config = f'--oem 3 --psm {psm} -c tessedit_char_whitelist={whitelist}'
         data = pytesseract.image_to_data(
             pil_img, lang=lang, config=config,
             output_type=pytesseract.Output.DICT
