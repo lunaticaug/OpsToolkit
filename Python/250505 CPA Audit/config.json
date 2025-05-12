@@ -1,0 +1,36 @@
+{
+  "ocr_dpi": 300,
+  "default_header_height_pt": 60.0,
+  "default_footer_height_pt": 40.0,
+  "default_column_gap_ratio": 0.5,
+  "ocr_engine_options": {
+    "lang": "kor+eng",
+    "default_psm": "3",
+    "header_footer_psm": "6",
+    "table_psm": "4"
+  },
+  "regex_patterns": {
+    "problem_start": "(【문제\\s*(\\d+(?:-\\d+)?)\\s*】\\s*\\((\\d+)\\s*점\\))([^\\S\\n]*[^\\n]*(?:\\n[^\\S\\n]*[^\\n]+)?)?",
+    "sub_question_start": "(\\(물음\\s*(\\d+)\\))((?:.|\\n)*?(?=\\n\\s*(?:[①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳]|\\([가-힣a-zA-Z0-9]+\\)|[0-9]+\\.)|\\n\\s*\\(물음|\\n\\s*【문제|\\Z))",
+    "item_marker": "^\\s*([①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳]|(\\([가-힣a-zA-Z0-9]+\\))|([0-9]+\\.))\\s*",
+    "page_label_common": "(\\d+\\s*/\\s*\\d+)"
+  },
+  "keywords": {
+    "preamble_start": "※ 답안 작성 시 유의사항",
+    "appendix_start_regex": "부록\\s*[A-Z0-9]+\\s*:",
+    "form_title_keyword": "[답안양식]"
+  },
+  "camelot_options": {
+    "flavor": "stream",
+    "line_scale": 40,
+    "edge_tol": 50
+  },
+  "schema_details": {
+    "version": "1.1",
+    "empty_value_representation_is_null": true,
+    "confidence_score_scale": "0.0 to 1.0"
+  },
+  "output_options": {
+    "sub_directory_name": "extracted_json_results"
+  }
+}
