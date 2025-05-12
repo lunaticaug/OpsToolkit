@@ -296,8 +296,17 @@ if __name__ == "__main__":
         logger.error(f"목록 파일이 없습니다: {list_file}")
         sys.exit(1)
 
-    with open(list_file, 'r', encoding='cp949', errors='replace') as f:
-        pdfs_to_process = [ln.strip() for ln in f if ln.strip() and not ln.startswith('#')]
+    # try UTF-8 first, then fall back to CP949 if it fails
+    try:
+        with open(list_file, 'r', encoding='utf-8') as f:
+            lines = f.read().splitlines()
+    except UnicodeDecodeError:
+        with open(list_file, 'r', encoding='cp949') as f:
+            lines = f.read().splitlines()
+    pdfs_to_process = [
+        ln.strip() for ln in lines
+        if ln.strip() and not ln.startswith('#')
+    ]
 
     output_root = os.path.join(base_dir, "extracted_json_results")
     os.makedirs(output_root, exist_ok=True)
