@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0",
+  "document_info": {
+    "source_file_name": "2024년_회계감사_기출문제_변형없음.pdf",
+    "title": "2024년 회계감사 기출문제",
+    "author": null,
+    "creation_date_pdf": null,
+    "extraction_details": {
+      "timestamp": "2025-05-12T20:01:04.309320Z",
+      "tool_chain": "PyMuPDF -> pdfplumber -> Camelot -> CustomParser",
+      "tool_versions": {
+        "PyMuPDF": "1.25.5",
+        "pdfplumber": "0.10.3",
+        "Camelot": "1.0.0"
+      }
+    },
+    "physical_layout_defaults": {
+      "total_pages_in_pdf": 16,
+      "page_width_pt": 595.0,
+      "page_height_pt": 842.0,
+      "columns_per_page": 2,
+      "estimated_header_height_pt": 60.0,
+      "estimated_footer_height_pt": 40.0
+    },
+    "data_conventions": {
+      "coordinate_system": "PDF points (origin: bottom‑left)",
+      "empty_value_representation": null,
+      "confidence_score_scale": "0.0‑1.0"
+    }
+  },
+  "preamble_content": [],
+  "page_details": [
+    {
+      "page_number_in_pdf": 1,
+      "display_page_label": "1/16",
+      "dimensions_pt": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "detected_header_text": "회계 2/16",
+      "detected_footer_text": "",
+      "columns_content": [
+        {
+          "column_index": 0,
+          "bbox_pt": [
+            0,
+            60,
+            297.5,
+            802
+          ],
+          "raw_ocr_text": "…왼쪽 컬럼 텍스트…",
+          "estimated_confidence": 0.97
+        },
+        {
+          "column_index": 1,
+          "bbox_pt": [
+            297.5,
+            60,
+            595,
+            802
+          ],
+          "raw_ocr_text": "…오른쪽 컬럼 텍스트…",
+          "estimated_confidence": 0.96
+        }
+      ],
+      "identified_structural_elements_locations": [
+        {
+          "element_id": "T1_1",
+          "type": "data_table",
+          "bbox_pt": [
+            60.8,
+            377.0,
+            663.8,
+            941.38
+          ],
+          "column_index_assignment": 0,
+          "estimated_confidence": 0.92
+        }
+      ]
+    }
+  ],
+  "logical_content_structure": {
+    "problems": [
+      {
+        "problem_id": "P1",
+        "display_number": "1",
+        "raw_title_text": "【문제 1】(16점)",
+        "parsed_topic": "내부통제",
+        "points_allocated": 16,
+        "introductory_description_text": "다음은 내부통제에 대한 물음이다. 각 물음은 독립적이다.",
+        "source_page_numbers": [
+          1,
+          2
+        ],
+        "estimated_confidence": 0.95,
+        "sub_questions": [
+          {
+            "sub_question_id": "P1_Q1",
+            "display_number": "1",
+            "raw_prompt_text": "(물음 1) ㈜투명은행의 내부통제를 이해하기 위해 왕능숙 회계사는 …",
+            "parsed_summary": "투명은행 통제활동 평가",
+            "source_page_numbers": [
+              1
+            ],
+            "primary_column_assignment": "left",
+            "estimated_confidence": 0.94,
+            "content_elements": [
+              {
+                "element_id": "P1_Q1_I1",
+                "type": "numbered_list_item",
+                "display_marker": "①",
+                "text_content": "㈜투명은행은 자체적 신용조사를 통해 …",
+                "raw_ocr_text": "① ㈜투명은행은 자체적 신용조사를 통해 …",
+                "source_page_number": 1,
+                "column_assignment": "left",
+                "estimated_confidence": 0.93
+              }
+            ],
+            "referenced_structural_element_ids": [
+              "T1_1"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "structured_data_elements": {
+    "T1_1": {
+      "type": "data_table",
+      "source_page_number": 1,
+      "primary_column_assignment": 0,
+      "caption_or_title_text": "답안 작성 시 유의사항",
+      "table_headers": [
+        "항목",
+        "통제활동"
+      ],
+      "table_rows_data": [
+        {
+          "항목": "①",
+          "통제활동": "…"
+        },
+        {
+          "항목": "②",
+          "통제활동": "…"
+        }
+      ],
+      "parsing_details": {
+        "parsing_confidence": 0.92,
+        "parsing_method": "Camelot:stream"
+      },
+      "raw_element_ocr_text": "표 전체 OCR 텍스트…"
+    }
+  },
+  "appendices_content": []
+}
