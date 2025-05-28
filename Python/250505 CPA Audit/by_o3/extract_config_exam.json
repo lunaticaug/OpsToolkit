@@ -1,0 +1,20 @@
+{
+  "description": "기출·2단편집 시험지 공통 추출 설정",
+  "created": "2025-05-27T13:42:05",
+  "page_processing": {
+    "header": {
+      "detection": {
+        "marker_text": "3교시",
+        "fallback_y": 90.0
+      },
+      "crop_margin_after_marker": 2.0
+    },
+    "footer": {
+      "crop": false
+    },
+    "columns": {
+      "split_mid_ratio": 0.5
+    }
+  },
+  "notes": "다른 시험지도 같은 머리말 구조(‘3교시 회계감사 …’)라면 그대로 재사용. marker_text가 없으면 90pt 아래부터 본문 시작."
+}
