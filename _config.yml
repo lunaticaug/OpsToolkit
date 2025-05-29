@@ -1,5 +1,0 @@
-theme: minima
-collections:
-  prompts:
-    output: true
-    permalink: /prompts/:path/
