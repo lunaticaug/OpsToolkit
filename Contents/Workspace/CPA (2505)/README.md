@@ -1,3 +1,14 @@
+# 기출문제 일괄 다운로드 프로세스
+
+## 개요
+
+코드인터프리터로 웹크롤링 작업은 불가능해서 이 작업은 로컬이나 서버를 이용해야 합니다.
+아래 1-2-3 절차로 구분하여 25년치 문제를 저장하였습니다.
+LLM모델을 훈련할 때 시험문제 자료가 필요할 것이라고 생각합니다.
+
+
+## 프롬프트
+
 지금 우리가 작성하는 파이썬코드는
 https://cpa.fss.or.kr/cpa/bbs/B0000368/list.do?menuNo=1200078
 
@@ -6,12 +17,12 @@ https://cpa.fss.or.kr/cpa/bbs/B0000368/list.do?menuNo=1200078
 -----
 전체 프로세스 다시 설명할게.
 
-# 1. 게시판 목록을 탐색하며 url 크롤링 (지금 작성하는 파이썬 파일)
+### 1. 게시판 목록을 탐색하며 url 크롤링 (지금 작성하는 파이썬 파일)
 https://cpa.fss.or.kr/cpa/bbs/B0000368/list.do?menuNo=1200078
 페이지에서 게시글 목록이 있는 구조물 위치
 //*[@id="container"]/div[2]
 
-# 2. 파싱한 url 리스트 바탕으로 다운로드 할 url 리스트 추정
+### 2. 파싱한 url 리스트 바탕으로 다운로드 할 url 리스트 추정
 2024 2차 
 pdf
 https://cpa.fss.or.kr/cpa/cmmn/file/fileDown.do?menuNo=&atchFileId=daf1c7c3dab84b3a971b3e7b89122f85&fileSn=1&bbsId=B0000368
@@ -26,6 +37,6 @@ https://cpa.fss.or.kr/cpa/cmmn/file/fileDown.do?menuNo=&atchFileId={Process1에�
 hwp파일은 필요없지만 어떤 순서로 등록되었을지 알 수 없으므로
 파일번호 1~10을 호출해보고 등록되지 않은 번호에 마킹하는 방식이 좋을것 같다.
 
-# 3. Process 2에서 작성한 file url list를 바탕으로 다운로드 실행
+### 3. Process 2에서 작성한 file url list를 바탕으로 다운로드 실행
 
 이게 전체 흐름이고, 지금은 1번 파이썬 코드 작성해야함. 
