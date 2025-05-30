@@ -1,12 +1,9 @@
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
+import csv
 
 def get_post_urls(menu_no='1200078', bbs_id='B0000368', max_pages=10):
-    """
-    CPA FSS 게시판(list.do)에서 게시글 view URL을 크롤링합니다.
-    구조경로: /html/body/div[1]/div[1]/section/article/div[2]/div[2]
-    """
     base_url = 'https://cpa.fss.or.kr/cpa/bbs/B0000368/list.do'
     post_urls = set()
     session = requests.Session()
@@ -18,7 +15,6 @@ def get_post_urls(menu_no='1200078', bbs_id='B0000368', max_pages=10):
         resp.raise_for_status()
 
         soup = BeautifulSoup(resp.text, 'lxml')
-        # 게시판 본문: section > article > div:nth-of-type(2) > div:nth-of-type(2)
         board_div = soup.select_one(
             'body > div:nth-of-type(1) > div:nth-of-type(1) '
             '> section > article > div:nth-of-type(2) > div:nth-of-type(2)'
@@ -26,7 +22,6 @@ def get_post_urls(menu_no='1200078', bbs_id='B0000368', max_pages=10):
         if not board_div:
             break
 
-        # ul.board-list-inner > li.board-item
         items = board_div.select('ul.board-list-inner > li.board-item')
         if not items:
             break
@@ -40,5 +35,14 @@ def get_post_urls(menu_no='1200078', bbs_id='B0000368', max_pages=10):
     return sorted(post_urls)
 
 if __name__ == '__main__':
-    for url in get_post_urls(max_pages=5):
-        print(url)
+    urls = get_post_urls(max_pages=5)
+
+    # CSV로 저장
+    output_file = 'post_urls.csv'
+    with open(output_file, 'w', newline='', encoding='utf-8') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(['url'])         # 헤더
+        for url in urls:
+            writer.writerow([url])
+
+    print(f"총 {len(urls)}개의 URL을 '{output_file}'에 저장했습니다.")
