@@ -1,90 +1,81 @@
+"""
+Process 3 : 첨부파일 일괄 다운로드
+--------------------------------
+입력 : 2_file_urls.csv (Process 2 결과)
+출력 : <script_dir>/{year}_{phase}/
+          {year}_{phase}_{원본파일명}.*
+"""
+
 import os
-import re
 import csv
 import requests
-from bs4 import BeautifulSoup
 from urllib.parse import urlparse, unquote
 
-def extract_meta_from_post(url, session, headers):
-    """
-    게시물 페이지의 제목에서 '2024 2차' 같은 연도/시험구분을 추출.
-    """
-    resp = session.get(url, headers=headers)
-    resp.raise_for_status()
-    soup = BeautifulSoup(resp.text, 'lxml')
+# ------------------ 설정 ------------------ #
+CSV_NAME   = "2_file_urls.csv"   # Process 2 결과
+TIMEOUT    = 15                  # 요청 타임아웃(sec)
+CHUNK_SIZE = 8192               # 다운로드 chunk
 
-    # 예시: <h3 class="title">2024 2차 CPA 1교시 문제 및 답안</h3>
-    title_tag = soup.select_one('h3.title') or soup.find('h3')
-    title = title_tag.get_text(strip=True) if title_tag else ''
-
-    m = re.search(r'(\d{4})\s*(1차|2차)', title)
-    if m:
-        year, phase = m.group(1), m.group(2)
-    else:
-        year, phase = 'unknown', 'unknown'
-    return year, phase
-
-def download_all(csv_path):
+# ------------ 다운로드 함수 -------------- #
+def download_all(csv_path: str):
     session = requests.Session()
-    headers = {'User-Agent': 'Mozilla/5.0'}
-    meta_cache = {}
+    session.headers.update({"User-Agent": "Mozilla/5.0"})
 
-    with open(csv_path, newline='', encoding='utf-8') as f:
+    with open(csv_path, newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            if row.get('exists', '').lower() != 'true':
+            # ① 존재하지 않는 파일(skip)
+            if row.get("exists", "").lower() != "true":
                 continue
 
-            post_url = row['post_url']
-            file_url = row['url']
+            year  = row["year"]   or "unknown"
+            phase = row["phase"]  or "unknown"
+            url   = row["url"]
 
-            # 1) 게시물 메타 정보 캐싱
-            if post_url not in meta_cache:
-                try:
-                    year, phase = extract_meta_from_post(post_url, session, headers)
-                except Exception:
-                    year, phase = 'unknown', 'unknown'
-                meta_cache[post_url] = (year, phase)
-            year, phase = meta_cache[post_url]
-
-            # 2) 파일 다운로드 준비
-            print(f"▶ 다운로드: {file_url}")
+            # ② HTTP GET
             try:
-                resp = session.get(file_url, headers=headers, stream=True)
+                resp = session.get(url, stream=True, timeout=TIMEOUT)
                 resp.raise_for_status()
-            except Exception as e:
-                print(f"   ✖ 요청 실패: {e}")
+            except Exception as err:
+                print(f"[FAIL] {url}  ▶ {err}")
                 continue
 
-            # 3) 원본 파일명 추출
-            cd = resp.headers.get('Content-Disposition', '')
-            if 'filename=' in cd:
-                filename = cd.split('filename=')[-1].strip('"; ')
+            # ③ 원본 파일명 추출
+            cd = resp.headers.get("Content-Disposition", "")
+            if "filename=" in cd:
+                fname = cd.split("filename=")[-1].strip('"; ')
             else:
-                filename = os.path.basename(urlparse(file_url).path)
-            filename = unquote(filename)
+                fname = os.path.basename(urlparse(url).path)
+            fname = unquote(fname)
 
-            # 4) 저장 경로 결정: script_dir/{year}_{phase}/
-            script_dir = os.path.dirname(os.path.abspath(__file__))
-            subdir = os.path.join(script_dir, f"{year}_{phase}")
+            # ④ 저장 경로 (year_phase 폴더 → year_phase_prefix)
+            subdir   = os.path.join(os.path.dirname(csv_path), f"{year}_{phase}")
             os.makedirs(subdir, exist_ok=True)
 
-            save_name = f"{year}_{phase}_{filename}"
+            save_name = f"{year}_{phase}_{fname}"
             save_path = os.path.join(subdir, save_name)
 
-            # 5) 파일 쓰기
+            # 중복 다운로드 방지
+            if os.path.exists(save_path):
+                print(f"[SKIP] 이미 존재: {save_name}")
+                continue
+
+            # ⑤ 스트리밍 저장
             try:
-                with open(save_path, 'wb') as out:
-                    for chunk in resp.iter_content(chunk_size=8192):
+                with open(save_path, "wb") as out:
+                    for chunk in resp.iter_content(CHUNK_SIZE):
                         if chunk:
                             out.write(chunk)
-                print(f"   ✔ 저장됨: {save_path}\n")
-            except Exception as e:
-                print(f"   ✖ 저장 실패: {e}\n")
+                print(f"[OK]   {save_name}")
+            except Exception as err:
+                print(f"[FAIL] 저장 오류 {save_name} ▶ {err}")
 
-if __name__ == '__main__':
-    # 스크립트 위치 기준으로 2_file_urls.csv 사용
+# ---------------- 실행부 ----------------- #
+if __name__ == "__main__":
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    csv_path   = os.path.join(script_dir, '2_file_urls.csv')
+    csv_path   = os.path.join(script_dir, CSV_NAME)
 
-    download_all(csv_path)
+    if not os.path.isfile(csv_path):
+        print(f"'{CSV_NAME}'가 없습니다. 먼저 Process 2를 실행하세요.")
+    else:
+        download_all(csv_path)
