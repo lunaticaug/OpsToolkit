@@ -12,16 +12,20 @@ def load_post_urls(csv_path):
 
 def extract_meta(soup):
     """
-    게시물 제목(<h3 class="title">…)에서 '2024 2차' 패턴을 찾아서
-    (year, phase) 튜플로 반환. 못 찾으면 ('unknown','unknown').
+    제목 텍스트에서
+      • 연도: '20'으로 시작하는 네 자리 숫자 (2000~2099)
+      • 시험구분: '1차' or '2차'
+    를 각각 찾아서 반환.
     """
     title_tag = soup.select_one('h3.title') or soup.find('h3')
-    if title_tag:
-        text = title_tag.get_text(strip=True)
-        m = re.search(r'(\d{4})\s*(1차|2차)', text)
-        if m:
-            return m.group(1), m.group(2)
-    return 'unknown', 'unknown'
+    text = title_tag.get_text(strip=True) if title_tag else ''
+    # 연도: 20XX 패턴
+    m_year  = re.search(r'(20\d{2})', text)
+    year    = m_year.group(1) if m_year else 'unknown'
+    # 시험구분
+    m_phase = re.search(r'(1차|2차)', text)
+    phase   = m_phase.group(1) if m_phase else 'unknown'
+    return year, phase
 
 def get_file_urls(post_urls, max_filesn=10):
     session = requests.Session()
@@ -35,10 +39,10 @@ def get_file_urls(post_urls, max_filesn=10):
         resp.raise_for_status()
         soup = BeautifulSoup(resp.text, 'lxml')
 
-        # 메타 추출
+        # (1) 메타정보 추출
         year, phase = extract_meta(soup)
 
-        # 첨부파일 링크 기준 정보 추출
+        # (2) 첫 번째 첨부파일 링크에서 atchFileId, bbsId 추출
         link = soup.find('a', href=lambda h: h and 'fileDown.do' in h)
         if not link:
             print("   • 첨부파일 없음")
@@ -48,6 +52,7 @@ def get_file_urls(post_urls, max_filesn=10):
         atchFileId = qs.get('atchFileId', [''])[0]
         bbsId      = qs.get('bbsId', [''])[0]
 
+        # (3) fileSn 순회
         for file_sn in range(1, max_filesn + 1):
             file_url = (
                 'https://cpa.fss.or.kr/cpa/cmmn/file/fileDown.do'
@@ -64,15 +69,15 @@ def get_file_urls(post_urls, max_filesn=10):
                     pdf_urls.append(file_url)
 
             all_records.append({
-                'post_url':    post_url,
-                'year':        year,
-                'phase':       phase,
-                'atchFileId':  atchFileId,
-                'bbsId':       bbsId,
-                'file_sn':     file_sn,
-                'url':         file_url,
-                'exists':      exists,
-                'is_pdf':      is_pdf
+                'post_url':   post_url,
+                'year':       year,
+                'phase':      phase,
+                'atchFileId': atchFileId,
+                'bbsId':      bbsId,
+                'file_sn':    file_sn,
+                'url':        file_url,
+                'exists':     exists,
+                'is_pdf':     is_pdf
             })
 
     return all_records, pdf_urls
@@ -86,7 +91,7 @@ if __name__ == '__main__':
     post_urls = load_post_urls(posts_csv_path)
     records, pdf_urls = get_file_urls(post_urls, max_filesn=10)
 
-    # 전체 파일 리스트에 year, phase 포함
+    # 전체 파일 리스트에 year, phase 기록
     with open(files_csv_path, 'w', newline='', encoding='utf-8') as f:
         fieldnames = [
             'post_url','year','phase',
@@ -97,11 +102,11 @@ if __name__ == '__main__':
         writer.writeheader()
         writer.writerows(records)
 
-    # PDF URL만 별도 저장 (필요 시)
+    # PDF URL만 별도 저장
     with open(pdfs_csv_path, 'w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
         writer.writerow(['url'])
         for u in pdf_urls:
             writer.writerow([u])
 
-    print(f"\n완료: {len(records)}개 파일 URL → '{files_csv_path}', '{pdfs_csv_path}' 생성")
+    print(f"\n완료: {len(records)}개 파일 → '{files_csv_path}', '{pdfs_csv_path}' 생성")
