@@ -35,7 +35,7 @@ def get_post_urls(menu_no='1200078', bbs_id='B0000368', max_pages=10):
     return sorted(post_urls)
 
 if __name__ == '__main__':
-    urls = get_post_urls(max_pages=5)
+    urls = get_post_urls(max_pages=6)
 
     # CSV로 저장
     output_file = 'post_urls.csv'
