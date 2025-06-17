@@ -6,6 +6,8 @@
 
 _Note._
 
+![alt text](image.png)
+
 # workflow
 
 ## 1. getfiles 
