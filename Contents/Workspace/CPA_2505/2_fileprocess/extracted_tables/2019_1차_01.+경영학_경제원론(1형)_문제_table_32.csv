@@ -1,0 +1,5 @@
+①,두 방법의 평균오차(mean error)값은 동일하다.
+②,두 방법의 MAD(mean absolute deviation)값은 동일하다.
+③,두 방법의 MSE(mean squared error)값은 동일하다.
+④,두 방법의 MAPE(mean absolute percentage error)값은 동일하다.
+⑤,두 방법의 추적지표(tracking signal)값은 동일하다.
