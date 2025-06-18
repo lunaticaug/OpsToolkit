@@ -12,9 +12,18 @@ import re
 def setup_paths():
     """경로 설정"""
     script_dir = pathlib.Path(__file__).resolve().parent
-    hwp_dir = script_dir / "fulldata" / "hwp"
-    docx_dir = script_dir / "output" / "docx"
-    md_dir = script_dir / "output" / "markdown"
+    
+    # 스크립트가 hwp 폴더에 있다면 현재 폴더가 hwp_dir
+    if script_dir.name == "hwp":
+        hwp_dir = script_dir
+        output_base = script_dir.parent / "output"
+    else:
+        # 스크립트가 다른 곳에 있다면 fulldata/hwp 찾기
+        hwp_dir = script_dir / "fulldata" / "hwp"
+        output_base = script_dir / "output"
+    
+    docx_dir = output_base / "docx"
+    md_dir = output_base / "markdown"
     
     # 출력 폴더 생성
     docx_dir.mkdir(parents=True, exist_ok=True)
