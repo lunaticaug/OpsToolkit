@@ -1,110 +1,117 @@
 """
-Quick Techno Loop Player – no extra audio libs
-==============================================
-Generates a **10‑second (132 BPM) acid‑techno loop**, saves it as `quick_loop.wav`,
-then opens the file in your OS’s default audio player — so you don’t need
-`simpleaudio` or any C‑compiler‑requiring wheels. Perfect for a quick test
-in VS Code.
+Quick Techno Loop Player – PUNCHIER MIX (no extra libs)
+=======================================================
+Still just one Python file, still no external audio libraries – but now the
+loop **hits harder** thanks to fatter kick, brighter hats, saw‑lead drive, and
+***soft‑clip saturation*** on the master bus.
 
-🔧 **Requirements**  (built‑ins only: `wave`, `os`, `sys` are std‑lib)
+🔧 **Requirements**: only `numpy` (math) and std‑lib `wave/os/sys`
     pip install numpy
 
 Usage: `python quick_techno_loop.py`
+Produces `quick_loop.wav` (≈7 s @ 132 BPM) and auto‑opens it with your OS’s
+default player.
 """
 import numpy as np
 import wave
 import os
 import sys
 
-# --- Config ----------------------------------------------------------
+# ----------------------------------------------------- Config ------
 BPM = 132
-BARS = 4            # 4 bars ≈ 7.3 s
-SAMPLE_RATE = 44100
+BARS = 4                  # 4 bars ≈ 7.3 s
+SAMPLE_RATE = 44_100
 BEATS_PER_BAR = 4
+MASTER_DRIVE = 3.0        # <‑‑ raise for more saturation (2‑5)
 
 secs_per_beat = 60 / BPM
 TOTAL_SAMPLES = int(BARS * BEATS_PER_BAR * secs_per_beat * SAMPLE_RATE)
 
 audio = np.zeros(TOTAL_SAMPLES, dtype=np.float32)
 
-# --- Basic drum synthesizers ----------------------------------------
+# ------------------------------------------------ Drum generators --
 
 def kick():
-    length = int(0.3 * SAMPLE_RATE)
-    t = np.linspace(0, 0.3, length, False)
-    freq = np.linspace(100, 45, length)
-    sig = np.sin(2 * np.pi * freq * t)
-    env = np.exp(-12 * t)
-    return (sig * env * 1.2).astype(np.float32)
+    length = int(0.32 * SAMPLE_RATE)
+    t = np.linspace(0, 0.32, length, False)
+    freq = np.linspace(110, 40, length)
+    body = np.sin(2 * np.pi * freq * t)
+    click = np.sin(2 * np.pi * 2400 * t) * np.exp(-80 * t)
+    env = np.exp(-10 * t)
+    return ((body + click * 0.3) * env * 1.8).astype(np.float32)
 
 
 def snare():
-    length = int(0.2 * SAMPLE_RATE)
+    length = int(0.23 * SAMPLE_RATE)
     noise = np.random.uniform(-1, 1, length)
-    env = np.exp(-20 * np.linspace(0, 1, length))
-    tone = np.sin(2 * np.pi * 200 * np.linspace(0, 0.2, length)) * 0.4
-    return ((noise * 0.6 + tone) * env).astype(np.float32)
+    tone  = np.sin(2 * np.pi * 180 * np.linspace(0, 0.23, length))
+    env   = np.exp(-25 * np.linspace(0, 1, length))
+    return ((noise * 0.7 + tone * 0.5) * env).astype(np.float32)
 
 
 def hat(closed=True):
-    length = int((0.06 if closed else 0.25) * SAMPLE_RATE)
+    length = int((0.05 if closed else 0.3) * SAMPLE_RATE)
     noise = np.random.uniform(-1, 1, length)
-    env = np.exp(-40 * np.linspace(0, 1, length))
-    return (noise * env * (0.3 if closed else 0.25)).astype(np.float32)
+    hp = np.convolve(noise, [-1, 1], mode="same")  # pseudo high‑pass
+    env = np.exp(-60 * np.linspace(0, 1, length))
+    amp = 0.45 if closed else 0.35
+    return (hp * env * amp).astype(np.float32)
 
-# --- Acid bass synthesizer ------------------------------------------
+# --------------------------------------------- Acid bass generator --
 
 def acid(freq, length_secs):
     length = int(length_secs * SAMPLE_RATE)
     t = np.linspace(0, length_secs, length, False)
     saw = 2 * (t * freq - np.floor(0.5 + t * freq))
-    env = np.exp(-5 * t)
-    return (np.tanh(saw * 2) * env * 0.6).astype(np.float32)
+    env = np.exp(-6 * t)
+    return (np.tanh(saw * 2.5) * env * 0.8).astype(np.float32)
 
-# --- Sequencing helpers ---------------------------------------------
+# ------------------------------------------------ Sequencing utils --
 
 def add(sound, beat):
     start = int(beat * secs_per_beat * SAMPLE_RATE)
-    end = start + len(sound)
+    end   = start + len(sound)
     if end > len(audio):
         sound = sound[: len(audio) - start]
-        end = len(audio)
-    audio[start:end] += sound
+    audio[start:start + len(sound)] += sound
 
-# --- Program the pattern -------------------------------------------
+# ------------------------------------------------ Pattern program ---
 for bar in range(BARS):
     for beat in range(BEATS_PER_BAR):
-        beat_pos = bar * BEATS_PER_BAR + beat
-        add(kick(), beat_pos)                    # kick every beat
-        if beat in [1, 3]:                       # snare on 2 & 4
-            add(snare(), beat_pos)
-        # closed hat every 8th note
-        for sub in [0, 0.5]:
-            add(hat(True), beat_pos + sub)
-        # open hat on the "a" (last 16th)
-        add(hat(False), beat_pos + 0.75)
+        pos = bar * BEATS_PER_BAR + beat
+        add(kick(), pos)                    # kick every beat
+        if beat in (1, 3):                  # snare on 2 & 4
+            add(snare(), pos)
+        # closed hat (8th notes)
+        for sub in (0, 0.5):
+            add(hat(True), pos + sub)
+        # open hat on last 16th
+        add(hat(False), pos + 0.75)
 
-# Acid 16‑note pattern (F‑A‑G‑C)
-pattern = [65.41, 87.31, 77.78, 130.81]  # Hz
+# 16th‑note acid sequence – F A G C (down an octave)
+scale = [65.41, 87.31, 77.78, 130.81]
 step_len = secs_per_beat / 4
-for step in range(BARS * BEATS_PER_BAR * 4):
-    freq = pattern[step % len(pattern)]
-    add(acid(freq, step_len), step * 0.25)
+for idx in range(BARS * BEATS_PER_BAR * 4):
+    add(acid(scale[idx % len(scale)], step_len), idx * 0.25)
 
-# --- Normalize & convert -------------------------------------------
-max_amp = np.max(np.abs(audio))
-wave_int16 = (audio / max_amp * 0.9 * 32767).astype(np.int16)
+# ------------------------------------------------ Mastering stage ---
+# Soft‑clip saturation for louder, thicker sound
+sat = np.tanh(audio * MASTER_DRIVE) / np.tanh(MASTER_DRIVE)
 
-# --- Save to WAV ----------------------------------------------------
+# Normalise to ‑1 dBFS headroom
+sat /= np.max(np.abs(sat)) * 1.1
+wave_int16 = (sat * 32767).astype(np.int16)
+
+# ------------------------------------------------ Export / Play  ----
 filename = "quick_loop.wav"
 with wave.open(filename, "wb") as wf:
     wf.setnchannels(1)
-    wf.setsampwidth(2)  # 16‑bit
+    wf.setsampwidth(2)
     wf.setframerate(SAMPLE_RATE)
     wf.writeframes(wave_int16.tobytes())
 print(f"Saved {filename}")
 
-# --- Open with the system default player ---------------------------
+# auto‑open in default player
 if sys.platform.startswith("win32"):
     os.startfile(filename)
 elif sys.platform == "darwin":
