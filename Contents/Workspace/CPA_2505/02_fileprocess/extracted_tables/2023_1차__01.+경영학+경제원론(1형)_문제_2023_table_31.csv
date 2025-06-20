@@ -1,5 +1,0 @@
-①,"PVIFA(r,n) < n "
-②,"FVIFA(r,n) > n"
-③,(1+r)n ≥ (1+r×n) 
-④,"PVIF (r,n)=  〖〖1〗〗/〖〖FVIF (r,n)〗〗  "
-⑤,"PVIFA(r,n)×(1+r)^n =FVIFA(r,n)"
