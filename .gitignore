@@ -15,3 +15,8 @@ Python/250505 CPA Audit/pdfs/
 **/secrets/**
 **/fulldata/**
 **/wip/**
+
+*.pdf
+*.hwp
+*.docx
+*.doc
